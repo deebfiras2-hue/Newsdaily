@@ -1,0 +1,92 @@
+[
+  {
+    "file": "assets/music/tense-1.mp3",
+    "mood": "tense",
+    "use_for": [
+      "breaking",
+      "wow"
+    ],
+    "bpm": 105,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/tense-2.mp3",
+    "mood": "tense",
+    "use_for": [
+      "breaking",
+      "wow"
+    ],
+    "bpm": 108,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/curious-1.mp3",
+    "mood": "curious",
+    "use_for": [
+      "explainer",
+      "why",
+      "how"
+    ],
+    "bpm": 95,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/curious-2.mp3",
+    "mood": "curious",
+    "use_for": [
+      "explainer",
+      "why",
+      "how"
+    ],
+    "bpm": 100,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/uplifting-1.mp3",
+    "mood": "uplifting",
+    "use_for": [
+      "good-news",
+      "hope"
+    ],
+    "bpm": 90,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/epic-1.mp3",
+    "mood": "epic",
+    "use_for": [
+      "space",
+      "science"
+    ],
+    "bpm": null,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/upbeat-1.mp3",
+    "mood": "upbeat",
+    "use_for": [
+      "recap",
+      "week-in-60-seconds"
+    ],
+    "bpm": 118,
+    "duration_s": 60.1,
+    "lufs": -16
+  },
+  {
+    "file": "assets/music/neutral-1.mp3",
+    "mood": "neutral",
+    "use_for": [
+      "numbers",
+      "data"
+    ],
+    "bpm": 100,
+    "duration_s": 60.1,
+    "lufs": -16
+  }
+]
