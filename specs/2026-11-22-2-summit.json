@@ -1,0 +1,48 @@
+{
+ "out": "posts/2026-11-22/2-trump-xi-putin-summit",
+ "date": "NOV 22, 2026",
+ "category": "WORLD",
+ "tag": "TODAY",
+ "source": "Reuters, AP, Al Jazeera",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "headline": "Trump, Xi and Putin just sat down together for historic talks",
+   "highlight": [
+    "sat down together"
+   ],
+   "subline": "**Three-way talks in Shenzhen on Nov. 19.** Nuclear arms, Ukraine and Iran were on the table."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "kicker": "WHAT HAPPENED",
+   "body": "At the APEC summit in **Shenzhen, China**, Trump met Putin for about **40 minutes**, then held talks with Xi. After that, all [[three leaders]] sat down together. It capped Trump's three-day Asia trip."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "kicker": "ON THE TABLE",
+   "body": "The agenda: [[nuclear arms control]], the wars in **Ukraine** and **Iran**, and trade. Xi called the talks **\"positive, constructive and fruitful\"**. Putin said they were **\"open and candid\"**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE CATCH",
+   "body": "Expectations were low. The joint statements did not address **Taiwan** or **Ukraine**, and Kyiv and its European allies worry they could be [[left out]]. Can three rival powers really end wars? Tell us below."
+  }
+ ]
+}

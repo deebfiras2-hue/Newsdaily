@@ -1,0 +1,56 @@
+{
+ "out": "posts/2026-11-22/1-anthropic-record-ipo",
+ "date": "NOV 22, 2026",
+ "category": "MONEY",
+ "tag": "TODAY",
+ "source": "Reuters, AP, Al Jazeera",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-22/src/anthropic-dario-amodei.jpg",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "headline": "The biggest IPO in history just made Anthropic worth $1.5 trillion",
+   "highlight": [
+    "biggest IPO in history"
+   ],
+   "subline": "**Shares jumped 34% on day one.** Anthropic is the first frontier AI lab you can buy on the stock market.",
+   "credit": "TechCrunch / CC BY 2.0"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/nasdaq-tower.jpg",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "kicker": "WHAT HAPPENED",
+   "body": "On Thursday, Anthropic began trading on the Nasdaq under the ticker **ANT**. Shares were sold at **$83** and opened at **$111.50**, about [[34% higher]]. The company raised roughly **$81 billion**.",
+   "credit": "Nielsoncaetanosalmeron / CC BY 4.0"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/nasdaq-marketsite.jpg",
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "kicker": "THE NUMBERS",
+   "body": "It is the **largest IPO in US history**, bigger than SpaceX's listing in June. Counting every share, the company is valued near [[$2 trillion]]. By midday the stock had cooled to roughly **$99 to $105**.",
+   "credit": "ajay_suresh / CC BY 2.0"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "kicker": "WHY IT MATTERS",
+   "body": "Stocks were falling that day, and the Dow was down about **1.8%** at midday. Even so, investors lined up for a piece of AI. Would you buy shares in an AI company right now? Tell us below.",
+   "credit": "TechCrunch / CC BY 2.0"
+  }
+ ]
+}

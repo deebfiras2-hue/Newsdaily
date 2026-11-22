@@ -1,0 +1,10 @@
+{"out":"posts/2026-11-22/reels/reel-2.mp4","cover":"posts/2026-11-22/reels/reel-2-cover.png","category":"SCIENCE","tag":"TODAY",
+"hook":{"text":"A 1977 spacecraft just hit a record","highlight":["record"],"photo":"posts/2026-11-22/src/voyager-artist-concept-1.jpg","focus":[0.3,0.4]},
+"beats":[
+{"text":"Voyager 1 is 16.1 billion miles away","red":["16.1 billion miles"],"photo":"posts/2026-11-22/src/voyager-artist-concept-2.jpg","focus":[0.5,0.4]},
+{"text":"Light now takes 24 hours to reach it","red":["24 hours"],"photo":"posts/2026-11-22/src/voyager-artist-concept-1.jpg","focus":[0.3,0.4]},
+{"text":"That is one full light-day","red":["light-day"],"photo":"posts/2026-11-22/src/voyager-artist-concept-3.jpg","focus":[0.5,0.4]},
+{"text":"A message takes a day to arrive","red":["a day"],"photo":"posts/2026-11-22/src/voyager-launch-1977.jpg","focus":[0.5,0.35]},
+{"text":"The reply takes another day","red":["another day"],"photo":"posts/2026-11-22/src/voyager-artist-concept-2.jpg","focus":[0.5,0.4]},
+{"text":"Voyager 2 gets there in 2035","red":["2035"],"photo":"posts/2026-11-22/src/voyager-artist-concept-1.jpg","focus":[0.3,0.4]}
+],"hook_sec":3.2,"beat_sec":3.4,"outro_sec":2.8}

@@ -1,0 +1,10 @@
+{"out":"posts/2026-11-22/reels/reel-1.mp4","cover":"posts/2026-11-22/reels/reel-1-cover.png","category":"MONEY","tag":"BREAKING",
+"hook":{"text":"AI just had the biggest IPO ever","highlight":["biggest IPO ever"],"photo":"posts/2026-11-22/src/anthropic-dario-amodei.jpg","focus":[0.5,0.3]},
+"beats":[
+{"text":"Anthropic began trading on the Nasdaq","red":["Nasdaq"],"photo":"posts/2026-11-22/src/nasdaq-tower.jpg","focus":[0.5,0.4]},
+{"text":"Shares were sold at $83","red":["$83"],"photo":"posts/2026-11-22/src/nasdaq-marketsite.jpg","focus":[0.5,0.35]},
+{"text":"Then opened at $111.50","red":["$111.50"],"photo":"posts/2026-11-22/src/anthropic-dario-amodei.jpg","focus":[0.55,0.3]},
+{"text":"That is 34% higher on day one","red":["34% higher"],"photo":"posts/2026-11-22/src/nasdaq-tower.jpg","focus":[0.5,0.6]},
+{"text":"$81 billion raised. A US record","red":["$81 billion"],"photo":"posts/2026-11-22/src/nasdaq-marketsite.jpg","focus":[0.5,0.5]},
+{"text":"Would you buy AI stocks now?","red":["buy"],"photo":null}
+],"hook_sec":3.2,"beat_sec":3.4,"outro_sec":2.8}

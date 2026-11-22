@@ -1,0 +1,51 @@
+{
+ "out": "posts/2026-11-22/5-whale-breath-dna",
+ "date": "NOV 22, 2026",
+ "category": "GOOD NEWS",
+ "tag": "TODAY",
+ "source": "CTV News, Popular Science, Univ. of St Andrews",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-22/src/humpback-whale-blow.jpg",
+   "focus": [
+    0.65,
+    0.25
+   ],
+   "headline": "Scientists read a whale's entire DNA from its breath",
+   "highlight": [
+    "whale's entire DNA"
+   ],
+   "subline": "**A drone flew through a humpback's spray.** No darts and no biopsies were needed.",
+   "credit": "Wolfgang Sauber / CC BY-SA 3.0"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/humpback-whale-fluke.jpg",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "kicker": "HOW IT WORKED",
+   "body": "Researchers in **British Columbia** flew drones with sterile dishes through a humpback's blow, the mist it breathes out. They collected **58 samples** from [[26 whales]].",
+   "credit": "Buiobuione / CC BY-SA 4.0"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE RESULT",
+   "body": "About **84%** of the DNA in the mist came from the whale itself. It matched DNA from older biopsy samples and [[correctly showed each whale's sex]]. The other 16% came from microbes in the whale's airways."
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/humpback-whale-blow.jpg",
+   "focus": [
+    0.3,
+    0.5
+   ],
+   "kicker": "WHY IT MATTERS",
+   "body": "Scientists may now study whale genes [[without touching the animals]]. The microbes might one day show a whale's health, but that is not yet tested. Which animal should they study next? Tell us below.",
+   "credit": "Wolfgang Sauber / CC BY-SA 3.0"
+  }
+ ]
+}

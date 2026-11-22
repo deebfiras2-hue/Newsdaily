@@ -1,0 +1,44 @@
+{
+ "out": "posts/2026-11-22/4-myanmar-genocide-ruling",
+ "date": "NOV 22, 2026",
+ "category": "WORLD",
+ "tag": "TODAY",
+ "source": "AP, Reuters, Al Jazeera",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "headline": "The world's top court just ruled Myanmar committed genocide",
+   "highlight": [
+    "committed genocide"
+   ],
+   "subline": "**A first for the UN's top court.** It found Myanmar's military carried out genocide against the Rohingya in 2016-17."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "kicker": "WHAT HAPPENED",
+   "body": "On Nov. 19, the **International Court of Justice** ruled that Myanmar committed [[genocide]] against the Rohingya, a Muslim minority. The judges tied it to the military's **2016-2017** \"clearance operations\". **Gambia** brought the case in 2019."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT MATTERS",
+   "body": "It is the first time the court has found a state responsible for **committing genocide**. The ruling is [[final]], with **no appeal**. But the court cannot enforce it. It can only report to the UN Security Council."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "focus": [
+    0.3,
+    0.5
+   ],
+   "kicker": "WHAT'S NEXT",
+   "body": "The **UK** says it will expel Myanmar's defence attache and ask the UN Security Council to act. Legal experts say the ruling could shape future cases. Will the world act on it? Tell us below."
+  }
+ ]
+}
