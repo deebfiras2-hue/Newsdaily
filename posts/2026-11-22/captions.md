@@ -1,4 +1,4 @@
-# NEWSDAILY - Posts for November 22, 2026
+# ZOOMED OUT - Posts for November 22, 2026
 
 ## Suggested schedule (Berlin time)
 | Time | Post |
@@ -11,12 +11,12 @@
 | 19:00 | Reel 2 - Voyager 1 |
 | 20:00 | Carousel 5 - Whale breath DNA |
 
-Notes: Carousels 2 and 4 use the dark text-only layout (the legal photo source was rate-limiting downloads today). Add a trending sound in Instagram before posting each reel (the videos have no audio).
+Notes: TEST RUN, all items status "manual" (post by hand). Rebrand to ZOOMED OUT done. ElevenLabs and Pexels keys returned HTTP 401 (invalid), so reels are the silent old-style cut with new branding (no voice/captions/Pexels/SFX). Add a trending sound before posting. Stories reused from 2026-11-22 research (Nov 18-20 events). Carousels 2 and 4 are text-only.
 
 ---
 
 ## Carousel 1 - The biggest IPO in history (Anthropic)
-Folder: `1-anthropic-record-ipo/` - 4 slides (1.png to 4.png)
+Folder: `CAROUSELS/1-anthropic-record-ipo/` - 4 slides (1.jpg-4.jpg) + zip
 
 Caption (copy):
 ```
@@ -29,11 +29,11 @@ Counting every share, it is valued near $2 trillion.
 
 Would you buy shares in an AI company right now? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: Reuters, AP, Al Jazeera, Fox Business
 Photos: TechCrunch / CC BY 2.0; Nielsoncaetanosalmeron / CC BY 4.0; ajay_suresh / CC BY 2.0
 
-#breakingnews #news #ipo #anthropic #ai #artificialintelligence #stockmarket #nasdaq #investing #business #tech #wallstreet
+#zoomedout #news #worldnews #ipo #anthropic #ai #artificialintelligence #stockmarket #nasdaq #investing #business #tech #wallstreet
 ```
 Sources:
 - https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo
@@ -49,7 +49,7 @@ Photos:
 ---
 
 ## Carousel 2 - Trump, Xi and Putin talks
-Folder: `2-trump-xi-putin-summit/` - 4 slides (text-only layout)
+Folder: `CAROUSELS/2-trump-xi-putin-summit/` - 4 slides (text-only layout)
 
 Caption (copy):
 ```
@@ -62,11 +62,11 @@ Kyiv and its European allies worry they could be left out.
 
 Can three rival powers really end wars? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: Reuters, AP, Boston Globe, 1News
 Photos: text-only post
 
-#breakingnews #news #worldnews #trump #xijinping #putin #apec #china #russia #ukraine #politics #geopolitics
+#zoomedout #news #worldnews  #trump #xijinping #putin #apec #china #russia #ukraine #politics #geopolitics
 ```
 Sources:
 - https://www.bostonglobe.com/2026/11/19/nation/trump-xi-putin-meeting/
@@ -79,7 +79,7 @@ Photos: none (text-only).
 ---
 
 ## Carousel 3 - Voyager 1 is one light-day away
-Folder: `3-voyager-light-day/` - 4 slides
+Folder: `CAROUSELS/3-voyager-light-day/` - 4 slides
 
 Caption (copy):
 ```
@@ -91,7 +91,7 @@ Its twin, Voyager 2, will not get there until November 2035.
 
 Will Voyager still be working by then? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: NASA, Space.com, ITV News, EarthSky
 Photos: NASA/JPL-Caltech (illustrations) / Public domain; NASA / Public domain
 
@@ -108,7 +108,7 @@ Photos (NASA, public domain): artist concepts PIA04495, PIA17049, PIA21839 and 1
 ---
 
 ## Carousel 4 - Myanmar genocide ruling
-Folder: `4-myanmar-genocide-ruling/` - 4 slides (text-only layout)
+Folder: `CAROUSELS/4-myanmar-genocide-ruling/` - 4 slides (text-only layout)
 
 Caption (copy):
 ```
@@ -120,11 +120,11 @@ The UK says it will expel Myanmar's defence attache and ask the UN Security Coun
 
 Will the world act on this ruling? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: AP, Reuters, Human Rights Watch, RFA
 Photos: text-only post
 
-#breakingnews #news #worldnews #myanmar #rohingya #icj #unitednations #humanrights #justice #genocide #internationallaw #gambia
+#zoomedout #news #worldnews  #myanmar #rohingya #icj #unitednations #humanrights #justice #genocide #internationallaw #gambia
 ```
 Sources:
 - https://www.opb.org/article/2026/11/19/top-u-n-court-rules-myanmar-committed-genocide-against-rohingya/
@@ -137,7 +137,7 @@ Photos: none (text-only).
 ---
 
 ## Carousel 5 - Whale breath DNA
-Folder: `5-whale-breath-dna/` - 4 slides
+Folder: `CAROUSELS/5-whale-breath-dna/` - 4 slides
 
 Caption (copy):
 ```
@@ -150,7 +150,7 @@ No darts, no biopsies, no harm.
 
 Which animal should scientists study next? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: CTV News, Popular Science, University of St Andrews
 Photos: Wolfgang Sauber / CC BY-SA 3.0; Buiobuione / CC BY-SA 4.0
 
@@ -169,7 +169,7 @@ Photos:
 ---
 
 ## Reel 1 - Anthropic IPO
-Files: `reels/reel-1.mp4` (26 s, 1080x1920, no audio), `reels/reel-1-cover.png`
+Files: `REELS/reel-1.mp4` (26 s, 1080x1920, silent AAC track - NO VOICE, see note), `REELS/reel-1-cover.jpg`
 
 Add a trending sound in Instagram before posting.
 
@@ -182,18 +182,18 @@ It raised roughly $81 billion, a US record.
 
 Would you buy AI stocks right now? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: Reuters, AP, Al Jazeera
 Photos: TechCrunch / CC BY 2.0; Nielsoncaetanosalmeron / CC BY 4.0; ajay_suresh / CC BY 2.0
 
-#ipo #anthropic #ai #stockmarket #nasdaq #investing #business #tech #wallstreet #news #breakingnews #money
+#ipo #anthropic #ai #stockmarket #nasdaq #investing #business #tech #wallstreet #news #news #money
 ```
 Sources and photos: same as Carousel 1.
 
 ---
 
 ## Reel 2 - Voyager 1
-Files: `reels/reel-2.mp4` (26 s, 1080x1920, no audio), `reels/reel-2-cover.png`
+Files: `REELS/reel-2.mp4` (26 s, 1080x1920, silent AAC track - NO VOICE, see note), `reels/reel-2-cover.jpg`
 
 Add a trending sound in Instagram before posting.
 
@@ -206,7 +206,7 @@ Send it a message and the reply takes two days round trip.
 
 Will Voyager still be working in 2035? 👇
 
-Follow @newsdaily for daily global news 🌍
+Follow @zoomed.out.365 for the big picture, every day 🌍
 Source: NASA, Space.com, ITV News
 Photos: NASA/JPL-Caltech (illustrations) / Public domain
 

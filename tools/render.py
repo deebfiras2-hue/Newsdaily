@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NEWSDAILY carousel renderer.  Usage: python3 tools/render.py spec.json
+"""ZOOMED OUT carousel renderer.  Usage: python3 tools/render.py spec.json
 
 Spec (JSON):
 {
@@ -20,6 +20,9 @@ Spec (JSON):
 """
 import json, os, re, sys
 import numpy as np
+sys_path=os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0,sys_path)
+import brand
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 W, H = 1080, 1350
@@ -340,25 +343,21 @@ def footer(img, date, counter=None, swipe=False):
     d = ImageDraw.Draw(img)
     base_y = H - M  # baseline
     d.line([(M, base_y - 56), (W - M, base_y - 56)], fill=(52, 52, 62), width=2)
-    f = anton(44)
-    x = M
-    d.text((x, base_y), "NEWS", font=f, fill=WHITE, anchor="ls")
-    x += f.getlength("NEWS")
-    d.text((x, base_y), "DAILY", font=f, fill=RED, anchor="ls")
+    brand.wordmark(img, M, base_y, 40, 40, 3)
+    d = ImageDraw.Draw(img)
     fd = inter(24, 700)
-    right = counter if counter else date
-    tw = spaced_len(right, fd, 3)
-    spaced(d, (W - M - tw, base_y - 6), right, fd, MUTED if counter else GRAY, 3)
+    right = counter if counter else ("" if swipe else date)
+    tw = spaced_len(right, fd, 3) if right else 0
+    if right:
+        spaced(d, (W - M - tw, base_y - 6), right, fd, MUTED if counter else GRAY, 3)
     if swipe:
         fs = inter(22, 800)
         t = "SWIPE"
         tw2 = spaced_len(t, fs, 4)
-        cx = W // 2 + 40
-        spaced(d, (cx - tw2 / 2 - 8, base_y - 6), t, fs, WHITE, 4)
-        ax = cx + tw2 / 2 + 6
-        d.line([(ax, base_y - 22), (ax + 12, base_y - 14), (ax, base_y - 6)], fill=RED, width=4, joint="curve")
-    if counter:
-        # date shown small centered
+        ax = W - M - 16
+        spaced(d, (ax - 14 - tw2, base_y - 6), t, fs, WHITE, 4)
+        d.line([(ax, base_y - 24), (ax + 12, base_y - 15), (ax, base_y - 6)], fill=RED, width=4, joint="curve")
+    if False:
         fm = inter(20, 600)
         t = date
         tw3 = spaced_len(t, fm, 3)
@@ -415,6 +414,7 @@ def build_cover(sl, spec):
     else:
         img = bg_grid_glow()
     pills(img, spec["category"], spec.get("tag", "TODAY"))
+    brand.draw_icon(img, W - M - 58, M - 1, 58)
     draw_headline(img, words, hl, lines, font, head_top)
     d = ImageDraw.Draw(img)
     d.rectangle([M, bar_y, M + 130, bar_y + 8], fill=RED)
@@ -474,6 +474,9 @@ def build_inner(sl, spec, idx, total):
         c = "Photo: " + credit
         cs = fit_line(c, 18, W - 2 * M)
         d.text((M, H - M - 56 - 14), c, font=inter(cs, 400), fill=(100, 100, 112), anchor="ls")
+    if idx == total:
+        ft = "Follow " + brand.HANDLE + " for the big picture"
+        d.text((M, H - M - 56 - (44 if credit else 16)), ft, font=inter(24, 600), fill=GRAY, anchor="ls")
     footer(img, spec["date"], f"{idx}/{total}")
     if photo:
         pass
@@ -489,8 +492,8 @@ def main():
     n = len(slides)
     for i, sl in enumerate(slides, 1):
         img = build_cover(sl, spec) if sl["type"] == "cover" else build_inner(sl, spec, i, n)
-        p = os.path.join(out, f"{i}.png")
-        img.save(p, optimize=True)
+        p = os.path.join(out, f"{i}.jpg")
+        img.save(p, quality=95, subsampling=0)
         print("wrote", p, os.path.getsize(p) // 1024, "KB")
 
 

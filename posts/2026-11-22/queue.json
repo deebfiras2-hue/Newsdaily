@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-22",
+ "items": [
+  {
+   "time_berlin": "08:00",
+   "type": "carousel",
+   "status": "manual",
+   "path": "CAROUSELS/1-anthropic-record-ipo",
+   "slides": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+   ]
+  },
+  {
+   "time_berlin": "11:00",
+   "type": "carousel",
+   "status": "manual",
+   "path": "CAROUSELS/2-trump-xi-putin-summit",
+   "slides": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+   ]
+  },
+  {
+   "time_berlin": "12:30",
+   "type": "reel",
+   "status": "manual",
+   "video": "REELS/reel-1.mp4",
+   "cover": "REELS/reel-1-cover.jpg"
+  },
+  {
+   "time_berlin": "14:00",
+   "type": "carousel",
+   "status": "manual",
+   "path": "CAROUSELS/3-voyager-light-day",
+   "slides": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+   ]
+  },
+  {
+   "time_berlin": "17:00",
+   "type": "carousel",
+   "status": "manual",
+   "path": "CAROUSELS/4-myanmar-genocide-ruling",
+   "slides": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+   ]
+  },
+  {
+   "time_berlin": "19:00",
+   "type": "reel",
+   "status": "manual",
+   "video": "REELS/reel-2.mp4",
+   "cover": "REELS/reel-2-cover.jpg"
+  },
+  {
+   "time_berlin": "20:00",
+   "type": "carousel",
+   "status": "manual",
+   "path": "CAROUSELS/5-whale-breath-dna",
+   "slides": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+   ]
+  }
+ ]
+}

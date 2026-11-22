@@ -1,7 +1,56 @@
-{"out":"posts/2026-11-22/3-voyager-light-day","date":"NOV 22, 2026","category":"SCIENCE","tag":"TODAY","source":"NASA, Space.com, ITV News",
-"slides":[
-{"type":"cover","photo":"posts/2026-11-22/src/voyager-artist-concept-1.jpg","focus":[0.3,0.4],"headline":"Light now needs 24 hours to reach Voyager 1","highlight":["24 hours"],"subline":"**It is 16.1 billion miles from Earth.** No human-made object has ever been this far away.","credit":"NASA/JPL-Caltech (illustration)"},
-{"type":"inner","photo":"posts/2026-11-22/src/voyager-artist-concept-2.jpg","focus":[0.5,0.4],"kicker":"THE NUMBERS","body":"On Nov. 18, Voyager 1 reached **one light-day** from Earth: about **16.1 billion miles**. Light travels 186,000 miles every second. [[Even at that speed]], it takes a full day to get there.","credit":"NASA/JPL-Caltech (illustration)"},
-{"type":"inner","photo":"posts/2026-11-22/src/voyager-artist-concept-3.jpg","focus":[0.5,0.4],"kicker":"WHY IT'S WILD","body":"Mission teams send a command today, and Voyager gets it **tomorrow**. Its reply takes another day to come back. That is a [[two-day wait]] for a single message.","credit":"NASA/JPL-Caltech (illustration)"},
-{"type":"inner","photo":"posts/2026-11-22/src/voyager-launch-1977.jpg","focus":[0.5,0.3],"kicker":"WHAT'S NEXT","body":"Voyager 1 launched in **1977** and still sends data from interstellar space. Its twin, Voyager 2, will not reach one light-day until [[November 2035]]. Will it still be working by then? Tell us below.","credit":"NASA"}
-]}
+{
+ "out": "posts/2026-11-22/CAROUSELS/3-voyager-light-day",
+ "date": "NOV 22, 2026",
+ "category": "SCIENCE",
+ "tag": "TODAY",
+ "source": "NASA, Space.com, ITV News",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-22/src/voyager-artist-concept-1.jpg",
+   "focus": [
+    0.3,
+    0.4
+   ],
+   "headline": "Light now needs 24 hours to reach Voyager 1",
+   "highlight": [
+    "24 hours"
+   ],
+   "subline": "**It is 16.1 billion miles from Earth.** No human-made object has ever been this far away.",
+   "credit": "NASA/JPL-Caltech (illustration)"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/voyager-artist-concept-2.jpg",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "kicker": "THE NUMBERS",
+   "body": "On Nov. 18, Voyager 1 reached **one light-day** from Earth: about **16.1 billion miles**. Light travels 186,000 miles every second. [[Even at that speed]], it takes a full day to get there.",
+   "credit": "NASA/JPL-Caltech (illustration)"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/voyager-artist-concept-3.jpg",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "kicker": "WHY IT'S WILD",
+   "body": "Mission teams send a command today, and Voyager gets it **tomorrow**. Its reply takes another day to come back. That is a [[two-day wait]] for a single message.",
+   "credit": "NASA/JPL-Caltech (illustration)"
+  },
+  {
+   "type": "inner",
+   "photo": "posts/2026-11-22/src/voyager-launch-1977.jpg",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "kicker": "WHAT'S NEXT",
+   "body": "Voyager 1 launched in **1977** and still sends data from interstellar space. Its twin, Voyager 2, will not reach one light-day until [[November 2035]]. Will it still be working by then? Tell us below.",
+   "credit": "NASA"
+  }
+ ]
+}

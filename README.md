@@ -1,5 +1,8 @@
-Today's posts: [posts/2026-11-22](posts/2026-11-22/captions.md)
+# ZOOMED OUT content desk (Instagram @zoomed.out.365)
 
-# NEWSDAILY content desk
+*The big picture. Every day.* Daily news carousels (1080x1350 JPEG) and reels (1080x1920 MP4).
 
-Daily Instagram news carousels and reels, generated with `tools/render.py` (carousels, 1080x1350 PNG) and `tools/reel.py` (reels, 1080x1920 MP4). Specs for each post are in `specs/`. Fonts are in `fonts/` (Anton, Inter).
+- Brand: `tools/brand.py` (HANDLE, colors, viewfinder icon, wordmark). Colors #0B0B0F / #FF2D2D / #FFFFFF; fonts Anton + Inter in `fonts/`.
+- Carousels: `tools/render.py spec.json`; reels: `tools/reel.py spec.json`; specs in `specs/`.
+- Env secrets (never committed): `ELEVENLABS_API_KEY`, `PEXELS_API_KEY`. Voiced-reel pipeline (voice, word captions, Pexels, SFX) is still TODO: needs valid keys.
+- Today: [posts/2026-11-22](posts/2026-11-22/captions.md)

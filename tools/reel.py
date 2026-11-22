@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NEWSDAILY reel renderer (1080x1920, 30fps, H.264, no audio).
+"""ZOOMED OUT reel renderer (1080x1920, 30fps, H.264, silent AAC track unless voiced).
 Usage: python3 tools/reel.py spec.json
 
 Spec:
@@ -158,27 +158,44 @@ class Scene:
         return img
 
     def _outro(self, k):
+        import brand
         img = self.bgimg.copy()
         d = ImageDraw.Draw(img)
-        p = ease(k / 12.0)
-        y0 = 760 + int((1 - p) * 40)
-        f = R.anton(120)
-        for i, (t, col) in enumerate([("FOLLOW FOR", WHITE), ("DAILY NEWS", RED)]):
-            w = f.getlength(t)
-            lay = Image.new("RGBA", (W, 200), (0, 0, 0, 0))
-            ImageDraw.Draw(lay).text(((W - w) / 2, 150), t, font=f, fill=col + (int(255 * p),), anchor="ls")
-            img.paste(lay, (0, y0 + i * 130 - 150 + 20), lay)
-        d = ImageDraw.Draw(img)
-        d.rectangle([(W - 130) // 2, y0 + 290, (W + 130) // 2, y0 + 298], fill=RED)
-        fw = R.anton(96)
-        w1, w2 = fw.getlength("NEWS"), fw.getlength("DAILY")
-        x = (W - w1 - w2) / 2
-        d.text((x, y0 + 450), "NEWS", font=fw, fill=WHITE, anchor="ls")
-        d.text((x + w1, y0 + 450), "DAILY", font=fw, fill=RED, anchor="ls")
-        fi = R.inter(34, 600)
-        t = "Global news, every day"
-        d.text(((W - fi.getlength(t)) / 2, y0 + 520), t, font=fi, fill=GRAY, anchor="ls")
+        p = ease(k / 20.0)
+        S = int(520 - 260 * p)  # viewfinder zooms out
+        brand.draw_icon(img, (W - S) // 2, 520 - S // 2, S)
+        y0 = 900
+        f = R.anton(104)
+        wz, wo = R.spaced_len("ZOOMED", f, 3), R.spaced_len("OUT", f, 3)
+        x = (W - wz - wo - 28) / 2
+        R.spaced(d, (x, y0), "ZOOMED", f, WHITE, 3)
+        R.spaced(d, (x + wz + 28, y0), "OUT", f, RED, 3)
+        ft = R.inter(36, 700)
+        t = "THE BIG PICTURE. EVERY DAY."
+        R.spaced(d, ((W - R.spaced_len(t, ft, 5)) / 2, y0 + 90), t, ft, GRAY, 5)
+        fh = R.anton(60)
+        t = "FOLLOW " + brand.HANDLE.upper()
+        d.rounded_rectangle([(W - fh.getlength(t)) / 2 - 36, y0 + 170, (W + fh.getlength(t)) / 2 + 36, y0 + 270], radius=50, fill=RED)
+        d.text(((W - fh.getlength(t)) / 2, y0 + 240), t, font=fh, fill=WHITE, anchor="ls")
         return img
+
+
+def add_intro(img, g):
+    """first 3s: viewfinder icon top-right; 0.5s: brackets zoom out around hook"""
+    import brand
+    if g < 3 * FPS:
+        brand.draw_icon(img, W - 72 - 90, 190, 90)
+    if g < 15:
+        k = ease(g / 15.0)
+        sc = 0.6 + 0.4 * k
+        S = int(820 * sc)
+        lay = Image.new("RGB", img.size, (0, 0, 0))
+        m = Image.new("L", img.size, 0)
+        brand.draw_icon(lay, (W - S) // 2, 1170 - S // 2, S, dot=False)
+        md = Image.new("L", img.size, 0)
+        brand.draw_icon(Image.new("RGB", img.size), 0, 0, 1)
+        # simple: draw directly (brackets only)
+        brand.draw_icon(img, (W - S) // 2, 1170 - S // 2, S, dot=False)
 
 
 def add_pills(img, category, tag):
@@ -222,17 +239,18 @@ def main():
                     pass
                 if s.kind == "hook":
                     add_pills(img, cat, tag)
+                    add_intro(img, g)
                 progress(img, (g + 1) / total)
                 return img
             acc += s.n
 
     if cover:
         c = render_global(int(0.5 * FPS) + 8)  # fully popped-in hook frame
-        c.save(cover, optimize=True)
+        c.save(cover, quality=95)
         print("cover", cover)
 
     cmd = [ff_exe(), "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-           "-an", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-r", str(FPS), out]
+           "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-shortest", "-c:a", "aac", "-b:a", "128k", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-profile:v", "high", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-r", str(FPS), out]
     pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for g in range(total):
         pr.stdin.write(render_global(g).tobytes())
