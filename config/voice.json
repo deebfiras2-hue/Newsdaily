@@ -1,0 +1,24 @@
+{
+  "main": {
+    "voice_id": "ZthjuvLPty3kTMaNKVKb",
+    "name": "Peter",
+    "model_id": "eleven_v3",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "speed": 1.0
+  },
+  "quote": {
+    "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+    "name": "Alice - Clear, Engaging Educator",
+    "model_id": "eleven_v3",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "speed": 1.0
+  },
+  "timestamps": "with-timestamps",
+  "notes": "Model eleven_v3 (most expressive; supports POST /v1/text-to-speech/{voice_id}/with-timestamps - tested OK, returns per-character alignment, so no forced-alignment needed; /v1/forced-alignment remains the fallback). Write for the ear: short sentences, contractions, fragments and ellipses ('...') for beats. Audio tags allowed, use sparingly: [pause], [softly], [excited], [thoughtful], [short pause]. Spell out numbers as spoken. Do not exceed ~3000 chars per call. Loudness-normalise (loudnorm -16 LUFS, TP -1.5) in post; raw samples sit at about -15 to -19 LUFS. Output mp3_44100_128. v3 ignores 'speed' in practice; control pace with punctuation/tags. Settings: stability 0.5 (natural), similarity_boost 0.8."
+}
