@@ -1,0 +1,9 @@
+node_modules/
+out/
+build/
+.remotion/
+# synced from the repo root by scripts/render.mjs (single source of truth lives in ../fonts, ../assets)
+public/fonts/
+public/sfx/
+public/music/
+public/_props.json

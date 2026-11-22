@@ -1,0 +1,405 @@
+{
+ "id": "bepicolombo",
+ "tag": "SPACE",
+ "date": "22 NOV 2026",
+ "voice": {
+  "src": "demo/voice.mp3",
+  "words": "demo/words.json"
+ },
+ "music": {
+  "src": "music/epic-1.mp3",
+  "speechDb": -21,
+  "gapDb": -14,
+  "tailDb": -13
+ },
+ "captions": {
+  "red": [
+   "8",
+   "9",
+   "37-minute",
+   "bepicolombo",
+   "mercury",
+   "2018",
+   "messenger",
+   "4",
+   "december",
+   "april",
+   "sun"
+  ],
+  "replace": [
+   {
+    "from": 0,
+    "to": 0,
+    "text": "8"
+   },
+   {
+    "from": 2,
+    "to": 2,
+    "text": "9"
+   },
+   {
+    "from": 6,
+    "to": 7,
+    "text": "37-minute"
+   },
+   {
+    "from": 21,
+    "to": 22,
+    "text": "2018."
+   },
+   {
+    "from": 33,
+    "to": 33,
+    "text": "4"
+   }
+  ]
+ },
+ "cover": {
+  "frame": 84
+ },
+ "scenes": [
+  {
+   "type": "zoomOut",
+   "start": 0,
+   "transition": "cut",
+   "captions": false,
+   "mode": "space",
+   "image": "demo/mercury_messenger.png",
+   "imageSize": [
+    3840,
+    4387
+   ],
+   "disc": [
+    1631,
+    2209,
+    2094
+   ],
+   "focus": [
+    0.37,
+    0.37
+   ],
+   "detailEnd": 1.6,
+   "revealStart": 2.75,
+   "revealEnd": 3.95,
+   "target": "mercury",
+   "pin": {
+    "label": "MERCURY",
+    "sub": "CLOSEST TO THE SUN",
+    "at": 3.75,
+    "side": "left"
+   },
+   "overlay": {
+    "y": 690,
+    "size": 200,
+    "exitAt": 3.45,
+    "lines": [
+     {
+      "text": "8 years",
+      "at": 0.0,
+      "red": [
+       "8"
+      ]
+     },
+     {
+      "text": "9 flybys",
+      "at": 0.86,
+      "red": [
+       "9"
+      ]
+     },
+     {
+      "text": "1 burn",
+      "at": 2.15,
+      "red": [
+       "1"
+      ],
+      "bracket": "burn",
+      "bracketAt": 2.55,
+      "bracketLabel": "37 MINUTES"
+     }
+    ]
+   },
+   "lift": 200
+  },
+  {
+   "type": "photo",
+   "start": "w9-0.1",
+   "transition": "whip",
+   "src": "demo/bepi_stack.jpg",
+   "fg": "demo/bepi_stack_fg.png",
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "kicker": "ESA × JAXA",
+   "title": "BEPICOLOMBO",
+   "credit": "PHOTO: ESA–C. CARREAU · CC BY-SA 3.0 IGO",
+   "dir": 1
+  },
+  {
+   "type": "globe",
+   "start": "w13-0.08",
+   "transition": "zoom",
+   "texture": "mercury",
+   "lon": 20,
+   "lat": 10,
+   "fromLon": 70,
+   "radius": 360,
+   "cy": 880,
+   "orbit": {
+    "rx": 540,
+    "ry": 140,
+    "tilt": -16,
+    "period": 3.4,
+    "sat": "demo/bepi_model.png",
+    "satSize": 140
+   },
+   "kicker": "MERCURY ORBIT",
+   "title": "ARRIVED."
+  },
+  {
+   "type": "globe",
+   "start": "w18-0.1",
+   "transition": "whip",
+   "texture": "earth",
+   "lon": -52.77,
+   "lat": 5.24,
+   "fromLon": 110,
+   "radius": 430,
+   "cy": 900,
+   "pin": {
+    "lon": -52.77,
+    "lat": 5.24,
+    "label": "KOUROU",
+    "sub": "LAUNCH · OCT 2018",
+    "at": 1.0,
+    "side": "right"
+   },
+   "kicker": "WHERE IT STARTED"
+  },
+  {
+   "type": "bars",
+   "start": "w23-0.1",
+   "transition": "bracket",
+   "kicker": "MERCURY ORBITERS",
+   "title": "LAUNCH TO ORBIT",
+   "max": 9,
+   "bars": [
+    {
+     "label": "MESSENGER",
+     "sub": "NASA · 2004–2011",
+     "value": 6.6,
+     "decimals": 1,
+     "unit": "YRS"
+    },
+    {
+     "label": "BEPICOLOMBO",
+     "sub": "ESA/JAXA · 2018–2026",
+     "value": 8,
+     "unit": "YRS",
+     "highlight": true
+    }
+   ],
+   "badge": {
+    "text": "ONLY THE 2ND EVER",
+    "at": 1.5
+   }
+  },
+  {
+   "type": "photo",
+   "start": "w31-0.12",
+   "transition": "whip",
+   "src": "demo/messenger_art.jpg",
+   "fg": "demo/messenger_art_fg.png",
+   "focus": [
+    0.3,
+    0.5
+   ],
+   "kicker": "NASA · 2011–2015",
+   "title": "MESSENGER",
+   "credit": "ART: NASA/JHUAPL · PUBLIC DOMAIN",
+   "dir": -1
+  },
+  {
+   "type": "counter",
+   "start": "w33-0.1",
+   "transition": "zoom",
+   "value": 37,
+   "unit": "MIN",
+   "label": "THE BURN",
+   "sub": "4 THRUSTERS",
+   "dots": 4,
+   "at": 0.15,
+   "countDur": 1.0
+  },
+  {
+   "type": "route",
+   "start": "w41-0.1",
+   "transition": "whip",
+   "mode": "space",
+   "kicker": "2018 → 2026",
+   "title": "THE LONG WAY IN",
+   "tilt": 0.5,
+   "drawStart": 0.2,
+   "drawDur": 2.4,
+   "counterLabel": "FLYBYS",
+   "orbits": [
+    {
+     "name": "mercury",
+     "r": 190,
+     "color": "#b9b4ad",
+     "angle": 210,
+     "size": 10
+    },
+    {
+     "name": "venus",
+     "r": 330,
+     "color": "#e6cf9b",
+     "angle": 40,
+     "size": 13,
+     "label": "VENUS"
+    },
+    {
+     "name": "earth",
+     "r": 460,
+     "color": "#5b93e0",
+     "angle": 200,
+     "size": 13,
+     "label": "EARTH"
+    }
+   ],
+   "waypoints": [
+    {
+     "a": 200,
+     "r": 460
+    },
+    {
+     "a": 560,
+     "r": 460,
+     "flyby": true
+    },
+    {
+     "a": 760,
+     "r": 330,
+     "flyby": true
+    },
+    {
+     "a": 1120,
+     "r": 330,
+     "flyby": true
+    },
+    {
+     "a": 1290,
+     "r": 196,
+     "flyby": true
+    },
+    {
+     "a": 1400,
+     "r": 194,
+     "flyby": true
+    },
+    {
+     "a": 1510,
+     "r": 192,
+     "flyby": true
+    },
+    {
+     "a": 1620,
+     "r": 190,
+     "flyby": true
+    },
+    {
+     "a": 1730,
+     "r": 188,
+     "flyby": true
+    },
+    {
+     "a": 1840,
+     "r": 186,
+     "flyby": true
+    },
+    {
+     "a": 1900,
+     "r": 150
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "start": "w51-0.1",
+   "transition": "flash",
+   "captions": false,
+   "text": "IT\nWORKED.",
+   "red": [
+    "worked"
+   ],
+   "kicker": "ORBIT INSERTION",
+   "attribution": "ESA / JAXA · NOV 2026",
+   "size": 245,
+   "y": 640,
+   "bg": {
+    "planet": "mercury",
+    "lon": 40
+   },
+   "impact": true
+  },
+  {
+   "type": "timeline",
+   "start": "w53-0.12",
+   "transition": "whip",
+   "kicker": "WHAT'S NEXT",
+   "title": "THE MISSION",
+   "items": [
+    {
+     "date": "2018",
+     "label": "LAUNCH",
+     "at": 0.05
+    },
+    {
+     "date": "2020–25",
+     "label": "9 FLYBYS",
+     "at": 0.45
+    },
+    {
+     "date": "NOV 2026",
+     "label": "ORBIT",
+     "at": 0.9
+    },
+    {
+     "date": "DEC 2026",
+     "label": "SPLIT IN TWO",
+     "at": 1.45
+    },
+    {
+     "date": "APR 2027",
+     "label": "SCIENCE",
+     "at": 3.05
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "start": "w64-0.12",
+   "transition": "zoom",
+   "captions": false,
+   "text": "WHAT DO YOU\nWANT TO KNOW\nABOUT MERCURY?",
+   "red": [
+    "mercury"
+   ],
+   "kicker": "YOUR TURN",
+   "attribution": "TELL US IN THE COMMENTS ↓",
+   "size": 132,
+   "y": 560,
+   "bg": {
+    "planet": "mercury",
+    "lon": 120
+   }
+  },
+  {
+   "type": "end",
+   "start": "w78-0.15",
+   "transition": "bracket",
+   "captions": false
+  }
+ ]
+}
