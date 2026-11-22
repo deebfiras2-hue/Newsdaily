@@ -1,0 +1,439 @@
+{
+ "id": "zwei-friseure",
+ "theme": "chispa",
+ "mode": "lineart",
+ "voice": {
+  "src": "zwei-friseure/voice.mp3",
+  "words": "zwei-friseure/words.json"
+ },
+ "music": {
+  "src": "music/curious-1.mp3",
+  "speechDb": -20,
+  "gapDb": -15,
+  "tailDb": -12
+ },
+ "narration": {
+  "pos": "bottom",
+  "y": 1470,
+  "size": 58
+ },
+ "cover": {
+  "frame": 425
+ },
+ "scenes": [
+  {
+   "type": "la-split",
+   "start": 0,
+   "bg": "warm",
+   "title": "Zwei Friseure.",
+   "labels": [
+    {
+     "at": 0.2,
+     "text": "G L E I C H E   S T R A S S E"
+    },
+    {
+     "at": "w6",
+     "text": "E I N E   K U N D I N"
+    }
+   ],
+   "ground": 1150,
+   "camera": [
+    {
+     "at": "w15",
+     "dur": 0.8,
+     "x": 569,
+     "y": 1000,
+     "s": 5.5
+    }
+   ],
+   "items": [
+    {
+     "kind": "barbershop",
+     "x": 290,
+     "y": 1150,
+     "s": 2.1,
+     "params": {
+      "text": "FRISEUR"
+     },
+     "at": 0.3,
+     "dd": 1.1
+    },
+    {
+     "kind": "barbershop",
+     "x": 790,
+     "y": 1150,
+     "s": 2.1,
+     "params": {
+      "text": "FRISEUR"
+     },
+     "at": "w2",
+     "dd": 1.1
+    },
+    {
+     "kind": "barber",
+     "x": 225,
+     "y": 1177.5,
+     "s": 1.5,
+     "flip": false,
+     "clip": [
+      142,
+      993.4,
+      308,
+      1106.0
+     ],
+     "at": 1.4,
+     "dd": 0.8
+    },
+    {
+     "kind": "barber",
+     "x": 725,
+     "y": 1177.5,
+     "s": 1.5,
+     "flip": true,
+     "clip": [
+      642,
+      993.4,
+      808,
+      1106.0
+     ],
+     "at": "w3",
+     "dd": 0.8
+    },
+    {
+     "kind": "priceTag",
+     "x": 290,
+     "y": 760,
+     "s": 2.4,
+     "at": "w4",
+     "dd": 0.6,
+     "params": {
+      "text": "24 €"
+     },
+     "out": "w6",
+     "sfx": "sfx/pop.mp3"
+    },
+    {
+     "kind": "priceTag",
+     "x": 790,
+     "y": 760,
+     "s": 2.4,
+     "at": "w5",
+     "dd": 0.6,
+     "params": {
+      "text": "24 €"
+     },
+     "out": "w6",
+     "sfx": "sfx/pop.mp3"
+    },
+    {
+     "kind": "woman",
+     "x": 460,
+     "y": 1150,
+     "s": 1.9,
+     "at": "w6",
+     "dd": 0.8,
+     "keys": [
+      {
+       "at": "w7",
+       "dur": 1.3,
+       "x": 540,
+       "walk": true
+      },
+      {
+       "at": "w11",
+       "pose": "phone"
+      },
+      {
+       "at": "w15-0.1",
+       "dur": 0.3,
+       "lit": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "la-split",
+   "start": "w16",
+   "transition": "fade",
+   "title": "Zwei Friseure.",
+   "label": "I N S T A G R A M",
+   "ground": false,
+   "sides": [
+    "N R .  1",
+    "N R .  2"
+   ],
+   "sidesY": 1112,
+   "items": [
+    {
+     "kind": "phone",
+     "x": 290,
+     "y": 860,
+     "s": 5.0,
+     "at": 0,
+     "dd": 0.8,
+     "params": {
+      "screen": "blank"
+     }
+    },
+    {
+     "type": "grid",
+     "x": 290,
+     "y": 872,
+     "w": 165,
+     "at": 0.3,
+     "dd": 0.9,
+     "content": "full",
+     "stale": {
+      "at": "w18"
+     }
+    },
+    {
+     "type": "text",
+     "text": "MÄRZ",
+     "font": "mono",
+     "size": 40,
+     "spacing": 6,
+     "box": true,
+     "x": 290,
+     "y": 846,
+     "width": 260,
+     "at": "w21",
+     "anim": "fade",
+     "dd": 0.25,
+     "sfx": "sfx/snap.mp3"
+    },
+    {
+     "kind": "phone",
+     "x": 790,
+     "y": 860,
+     "s": 5.0,
+     "at": "w22",
+     "dd": 0.8,
+     "params": {
+      "screen": "blank"
+     }
+    },
+    {
+     "type": "grid",
+     "x": 790,
+     "y": 872,
+     "w": 165,
+     "at": "w22+0.25",
+     "dd": 0.8,
+     "content": "empty",
+     "fresh": {
+      "at": "w24",
+      "step": 0.13
+     }
+    }
+   ]
+  },
+  {
+   "type": "la-split",
+   "start": "w29",
+   "transition": "fade",
+   "title": "Zwei Friseure.",
+   "label": "B E I   W E M   B U C H T   S I E ?",
+   "ground": 1150,
+   "items": [
+    {
+     "kind": "barbershop",
+     "x": 290,
+     "y": 1150,
+     "s": 2.1,
+     "params": {
+      "text": "FRISEUR"
+     },
+     "at": 0,
+     "dd": 0.6,
+     "sfx": false,
+     "keys": [
+      {
+       "at": "w35",
+       "dur": 0.8,
+       "dim": 0.75
+      }
+     ]
+    },
+    {
+     "kind": "barbershop",
+     "x": 790,
+     "y": 1150,
+     "s": 2.1,
+     "params": {
+      "text": "FRISEUR"
+     },
+     "at": 0,
+     "dd": 0.6,
+     "sfx": false,
+     "keys": [
+      {
+       "at": "w34",
+       "dur": 0.6,
+       "lit": 1
+      }
+     ]
+    },
+    {
+     "kind": "barber",
+     "x": 225,
+     "y": 1177.5,
+     "s": 1.5,
+     "flip": false,
+     "clip": [
+      142,
+      993.4,
+      308,
+      1106.0
+     ],
+     "at": 0.1,
+     "dd": 0.5,
+     "sfx": false,
+     "keys": [
+      {
+       "at": "w35",
+       "dur": 0.8,
+       "dim": 0.75
+      }
+     ]
+    },
+    {
+     "kind": "barber",
+     "x": 725,
+     "y": 1177.5,
+     "s": 1.5,
+     "flip": true,
+     "clip": [
+      642,
+      993.4,
+      808,
+      1106.0
+     ],
+     "at": 0.1,
+     "dd": 0.5,
+     "sfx": false,
+     "keys": [
+      {
+       "at": "w36",
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "kind": "question",
+     "x": 545,
+     "y": 880,
+     "s": 1.7,
+     "at": 0.35,
+     "dd": 0.6,
+     "out": "w33",
+     "sfx": "sfx/pop.mp3"
+    },
+    {
+     "kind": "woman",
+     "x": 540,
+     "y": 1150,
+     "s": 1.9,
+     "at": 0,
+     "dd": 0.5,
+     "sfx": false,
+     "keys": [
+      {
+       "at": "w33+0.05",
+       "dur": 1.5,
+       "x": 882,
+       "walk": true
+      }
+     ],
+     "out": "w38+0.35",
+     "outDur": 0.5
+    }
+   ]
+  },
+  {
+   "type": "la-reveal",
+   "start": "w39",
+   "transition": "fade",
+   "y": 440,
+   "lines": [
+    {
+     "text": "Dein Profil ist",
+     "fromWord": 39,
+     "size": 125,
+     "y": 400
+    },
+    {
+     "text": "dein Schaufenster.",
+     "fromWord": 42,
+     "accent": [
+      "Schaufenster"
+     ],
+     "size": 125,
+     "y": 545
+    },
+    {
+     "text": "Zeig, dass du offen hast.",
+     "fromWord": 44,
+     "font": "text",
+     "size": 56,
+     "y": 1330
+    }
+   ],
+   "items": [
+    {
+     "type": "line",
+     "from": [
+      150,
+      1200
+     ],
+     "to": 930,
+     "at": 0.2,
+     "dd": 0.7,
+     "sfx": false,
+     "glow": 0.4
+    },
+    {
+     "kind": "storefront",
+     "x": 540,
+     "y": 1200,
+     "s": 1.75,
+     "at": 0.3,
+     "dd": 1.1,
+     "params": {
+      "text": "DEIN LADEN"
+     }
+    },
+    {
+     "kind": "feed",
+     "x": 486,
+     "y": 1112,
+     "s": 0.85,
+     "at": "w43",
+     "dd": 0.8
+    },
+    {
+     "kind": "sign",
+     "x": 617,
+     "y": 1098,
+     "s": 1.0,
+     "at": "w44+0.1",
+     "dd": 0.5,
+     "params": {
+      "text": "OFFEN"
+     },
+     "sfx": "sfx/pop.mp3"
+    }
+   ]
+  },
+  {
+   "type": "la-end",
+   "start": "w49",
+   "transition": "fade",
+   "signoff": "Content, der den Daumen stoppt.",
+   "fromWord": 49,
+   "outro": "Chispa!",
+   "outroWord": 54
+  }
+ ]
+}

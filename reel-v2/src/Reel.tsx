@@ -1,7 +1,9 @@
 import React, {useMemo} from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {ReelSpec, SceneBase, Sfx, Word} from './spec';
-import {C, loadFonts} from './theme';
+import {C} from './theme';
+import {useThemeSetup} from './themes';
+import {Narration} from './lineart/LineArt';
 import {SCENES} from './scenes';
 import {OVERLAP, overlaps, TransitionLayer} from './components/Transition';
 import {Captions} from './components/Captions';
@@ -10,7 +12,6 @@ import {TopBar} from './components/TopBar';
 import {KineticTitle} from './scenes/KineticTitle';
 import {clamp, smooth} from './lib/anim';
 
-loadFonts();
 
 export type ResolvedProps = ReelSpec & {words: Word[]; durationSec: number};
 
@@ -21,6 +22,7 @@ const DEFAULT_SFX: Record<string, Sfx | null> = {
   bracket: {src: 'sfx/snap.mp3', at: -0.02, volume: 0.5},
   flash: {src: 'sfx/impact-boom.mp3', at: -0.03, volume: 0.6},
   cut: null,
+  fade: {src: 'sfx/whoosh-deep.mp3', at: -0.15, volume: 0.22},
 };
 
 export const startSec = (s: number | string, words: Word[]) => {
@@ -47,7 +49,7 @@ export const collectSfx = (p: ResolvedProps, tl: Timed[]): Sfx[] => {
     const d = DEFAULT_SFX[k];
     if (d && i > 0) cues.push({...d, at: s.t0 + d.at});
     const def = SCENES[s.type];
-    if (def?.cues) def.cues(s, s.t1 - s.t0).forEach((c) => cues.push({...c, at: s.t0 + c.at}));
+    if (def?.cues) def.cues({...s, sceneStart: s.t0, theme: p.theme}, s.t1 - s.t0, p.words).forEach((c) => cues.push({...c, at: s.t0 + c.at}));
     if (s.overlay) KineticTitle.cues(s.overlay).forEach((c) => cues.push({...c, at: s.t0 + c.at}));
   });
   (p.sfx ?? []).forEach((c) => cues.push(c));
@@ -83,6 +85,12 @@ export const Reel: React.FC<ResolvedProps> = (p) => {
     return (t: number) => ranges.some(([a, b]) => t >= a - 0.05 && t < b - 0.05);
   }, [tl]);
   const sfxVol = p.sfxVolume ?? 1;
+  const theme = useThemeSetup(p.theme);
+  const lineart = (p.mode ?? (tl[0]?.type.startsWith('la-') ? 'lineart' : 'graphics')) === 'lineart';
+  const narHidden = useMemo(() => {
+    const ranges = tl.filter((s) => s.narration === false || s.type === 'la-end' || s.type === 'la-reveal').map((s) => [s.t0, s.t1]);
+    return (t: number) => ranges.some(([a, b]) => t >= a - 0.05 && t < b - 0.05);
+  }, [tl]);
 
   return (
     <AbsoluteFill style={{backgroundColor: C.bg}}>
@@ -100,15 +108,16 @@ export const Reel: React.FC<ResolvedProps> = (p) => {
         return (
           <Sequence key={i} from={s.f0} durationInFrames={s.f1 - s.f0 + tail} name={`${i}:${s.type}`}>
             <TransitionLayer id={String(i)} inKind={inKind} inP={inP} outKind={next ? nextKind : undefined} outP={outP}>
-              <Comp {...s} dur={s.t1 - s.t0} words={p.words} sceneStart={s.t0} />
+              <Comp {...s} theme={p.theme} dur={s.t1 - s.t0} words={p.words} sceneStart={s.t0} prev={tl[i - 1]} />
               {s.overlay && <KineticTitle {...s.overlay} />}
             </TransitionLayer>
           </Sequence>
         );
       })}
-      <TopBar tag={p.tag} date={p.date} hideFrom={tl.length ? tl[tl.length - 1].f0 : 1e9} />
-      <Captions words={p.words} cfg={p.captions} hidden={capHidden} />
-      <Finish />
+      {!lineart && <TopBar tag={p.tag} date={p.date} brand={theme.id === 'zoomedout' ? undefined : theme.brand} hideFrom={tl.length ? tl[tl.length - 1].f0 : 1e9} />}
+      {!lineart && <Captions words={p.words} cfg={p.captions} hidden={capHidden} />}
+      {lineart && p.narration !== false && <Narration words={p.words} cfg={p.narration || undefined} hidden={narHidden} theme={p.theme} />}
+      <Finish grain={lineart ? 0.07 : undefined} />
       <Audio src={staticFile(p.voice.src)} volume={p.voice.volume ?? 1} />
       {p.music && (
         <Audio

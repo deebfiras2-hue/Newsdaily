@@ -143,3 +143,132 @@ scene start), optionally export a `cues(props)` returning SFX `[{src, at, volume
 Mercury photo + MDIS mosaic: NASA/JHUAPL/CIW (public domain) · Earth: NASA Visible Earth Blue Marble (PD) · Sun: NASA/SDO
 (PD) · BepiColombo stack photo: ESA–C. Carreau, CC BY-SA 3.0 IGO · BepiColombo model: NASA (PD) · MESSENGER artwork:
 NASA/JHUAPL (PD) · Map data: Natural Earth via world-atlas (PD) · Voice: ElevenLabs · Music: ZOOMED OUT library (ElevenLabs Music).
+
+---
+
+# Themes
+
+`"theme"` in the spec picks colours, fonts, logo and end card for **both** modes (`src/themes.ts`; default
+`DEFAULT_THEME` = `zoomedout` here, `behindthebrand` / `chispa` in the copies in those repos).
+
+| theme | look | fonts | accent |
+|---|---|---|---|
+| `zoomedout` | current ZOOMED OUT look (near-black, red) | Anton titles (caps), Inter text | `#FF2D2D` |
+| `behindthebrand` | ink `#111111` stage, cream `#F3EEE4` lines/text (cream `#F3EEE4` / ink `#111111` brand) | Gelasio titles, Barlow Bold text | green `#0E9F6E` |
+| `chispa` | Tinte `#0B2125` + Petrol `#0F5560` glow, Nebel `#EEF4EF` lines, Salbei `#9DB8A4` labels | Karantina titles (mixed case, no capital ß), Noto Sans text | Funke `#FF8A3D` (the ONLY accent) |
+
+GRAPHICS scenes are themed by palette + font aliasing (the theme's fonts are registered under the `ZO-Anton` /
+`ZO-Inter` names, the top bar shows the theme's brand name). The `la-end` card is themed (Chispa: wordmark from
+`public/themes/chispa`, typed sign-off, „Stimme mit KI erstellt“). Theme fonts/logos live in `public/themes/<id>/`
+(committed); the monospace is JetBrains Mono (`@fontsource/jetbrains-mono`, OFL) in `public/themes/common/`.
+
+# LINEART mode (Line-Art Story)
+
+Minimal glowing line-art pictograms instead of photos: stick figures (round head, line body, no face) and objects as
+thin bright outlines (3.7 px at 1080 wide) with a soft glow, off-white, exactly ONE accent colour on one detail
+(awning, phone screen, fresh tiles, a key word). Big glowing title on top, a tiny spaced monospace label below it,
+narration typed word by word in sync with the voice (one sentence at a time, lower-left; `"narration": {"pos": "top"}`
+for top-left), backgrounds `warm` (dark + soft centre glow) or `grid` (deep navy + fine grid), grain, slow camera drift.
+Elements DRAW ON stroke by stroke (stroke-dashoffset, lengths from `@remotion/paths`), the glow fades in after the
+strokes. SFX are automatic (soft tick per drawn pictogram, pop on accents / lit, whoosh on camera pushes and `fade`
+transitions); music is ducked from the word timings (`speechDb` −20 ≈ the requested −20 dB under speech).
+
+Mode: `"mode": "lineart"` (or automatic when the first scene is an `la-*` scene) → no top bar / word captions, typed
+narration instead. Scenes can still be mixed with GRAPHICS scenes in one spec. Use `"transition": "fade"` between
+line-art scenes.
+
+### STYLE CHOICE RULE
+
+- **LINEART** for psychology, how-it-works, pricing, thought experiments, A-vs-B stories, tips for small businesses —
+  anything that is an idea, not a photographed event.
+- **GRAPHICS** for news with real photos, real places, maps, spacecraft, people in the news.
+- Unsure? If the strongest visual is a real photo → GRAPHICS. If the strongest visual is a comparison → LINEART.
+
+### Scene types
+
+All `la-*` scenes share: `title`, `label` or `labels: [{at, text}]` (label typed in mono; a title/label identical to
+the previous scene's stays put), `bg` (`warm`|`grid`), `items` (below), `camera: [{at, dur, x, y, s}]` (point x,y
+moves to the centre at zoom s; slow push `drift` 0.035 by default), `narration: false`.
+
+| type | what | extra props |
+|---|---|---|
+| `la-title` | big centred title (+ label) | `titleY`, `titleSize` |
+| `la-split` | A-vs-B on one thin ground line (person – object – person) or two halves with a dashed divider; one side then changes through item `keys` (lit / dim / pose / walk) | `ground` (y or false), `groundFrom/To`, `divider`, `sides: ["A","B"]`, `sidesY` |
+| `la-transform` | pictogram `from` undraws while `to` draws in its place with a pop | `from`, `to` (items), `morphAt` |
+| `la-counter` | big monospace number counting up + mono caption | `value`, `start`, `at`, `countDur`, `prefix`, `suffix`, `decimals`, `caption`, `y` |
+| `la-flow` | icons connected by drawing arrows, one after another | `nodes: [{kind, label, params, accent}]`, `at`, `step`, `dir` (`h`/`v`), `y` |
+| `la-reveal` | statement revealed word by word in sync with the voice, accent word + drawn underline | `lines: [{text, fromWord, accent: [..], size, font: title|text, y}]` |
+| `la-end` | theme end card: logo/wordmark, line, sign-off typed in sync, outro word, small note | `signoff`, `fromWord`, `outro`, `outroWord`, `note` |
+
+### Items (`items: [...]`, screen px on the 1080×1920 canvas, times = seconds from scene start or `"w12"` word refs)
+
+| type | props |
+|---|---|
+| `picto` (default) | `kind`, `x`, `y` (origin = feet / ground for grounded things, centre for icons), `s`, `flip`, `params` (`pose`, `hair`, `dress`, `vest`, `tie`, `hold`, `screen`, `text`, `n`, `pole`, `open`), `accent` (accent detail on from the start), `at`, `dd` (draw time), `out`, `outDur`, `clip: [x1,y1,x2,y2]`, `keys: [{at, dur, x, y, s, o, dim, lit, pose, walk, flip}]`, `sfx` |
+| `text` | `text`, `font` (`title`/`text`/`mono`), `size`, `color` (`line`/`accent`/`muted`/`text`/#hex), `anim` (`type`/`fade`/`words` + `fromWord`), `box` (stamp), `align`, `width`, `spacing` |
+| `line` / `arrow` | `from: [x,y]`, `to: [x,y]` or x, `bend`, `dashed`, `accent` |
+| `grid` | abstract profile grid (avatar, bio lines, 3×3 tiles; no logo): `w`, `content` (`full`/`empty`), `stale: {at}` (greys out), `fresh: {at, step}` (tiles fill in the accent) |
+| `counter` | `value`, `start`, `dur`, `prefix`, `suffix`, `decimals`, `size` |
+
+Keys: `walk: true` animates a walk cycle while moving to the key's `x`; `lit: 1` = accent detail lights up + glow
+brightens + soft accent halo; `dim: 0.75` = greyed out.
+
+**Pictograms** (`src/lineart/picto.ts`, all parametric and drawable): `person` (poses `stand`, `walk`, `point`,
+`phone`, `wave`, `hold`, `think`, `sit`), `woman`, `barber`, `crowd`, `shop`/`storefront`, `barbershop`,
+`barberChair`, `scissors`, `comb`, `cafeTable`, `cup`, `croissant`, `bread`, `oven`, `wrench`, `toolbox`, `van`,
+`counter`, `door`, `phone` (`screen`: `blank`/`grid`/`post`/`lit`), `feed` (profile grid), `calendar`, `clock`,
+`coin`, `coinStack`, `banknote`, `priceTag`, `receipt`, `contract`, `chart`, `arrow`, `lightbulb`, `speechBubble`,
+`question`, `check`, `cross`, `house`, `office`, `car`, `globe`, `planet`, `rocket`, `sign`. Add one = a function
+returning `[{d, a?, fill?, w?}]` (a person is ~100 units tall).
+
+Quick QA without a full render: `node scripts/stills.mjs specs/<id>.json sheet.jpg 30,120,240,400 --scale 0.5`.
+
+### Worked example — LINEART (`specs/zwei-friseure.json`, Chispa, German)
+
+```jsonc
+{
+  "id": "zwei-friseure", "theme": "chispa", "mode": "lineart",
+  "voice": {"src": "zwei-friseure/voice.mp3", "words": "zwei-friseure/words.json"},
+  "music": {"src": "music/curious-1.mp3", "speechDb": -20, "gapDb": -15, "tailDb": -12},
+  "narration": {"pos": "bottom", "y": 1470, "size": 58},
+  "scenes": [
+    {"type": "la-split", "start": 0, "title": "Zwei Friseure.", "label": "G L E I C H E   S T R A S S E", "ground": 1150,
+     "camera": [{"at": "w15", "dur": 0.8, "x": 569, "y": 1000, "s": 5.5}],
+     "items": [
+       {"kind": "barbershop", "x": 290, "y": 1150, "s": 2.1, "at": 0.3, "params": {"text": "FRISEUR"}},
+       {"kind": "barbershop", "x": 790, "y": 1150, "s": 2.1, "at": "w2", "params": {"text": "FRISEUR"}},
+       {"kind": "woman", "x": 460, "y": 1150, "s": 1.9, "at": "w6",
+        "keys": [{"at": "w7", "dur": 1.3, "x": 540, "walk": true}, {"at": "w11", "pose": "phone"}, {"at": "w15", "lit": 1}]}]},
+    {"type": "la-split", "start": "w16", "transition": "fade", "title": "Zwei Friseure.", "label": "I N S T A G R A M",
+     "ground": false, "sides": ["N R .  1", "N R .  2"],
+     "items": [
+       {"kind": "phone", "x": 290, "y": 860, "s": 5},
+       {"type": "grid", "x": 290, "y": 872, "w": 165, "content": "full", "stale": {"at": "w18"}},
+       {"type": "text", "text": "MÄRZ", "font": "mono", "box": true, "x": 290, "y": 846, "at": "w21"},
+       {"kind": "phone", "x": 790, "y": 860, "s": 5, "at": "w22"},
+       {"type": "grid", "x": 790, "y": 872, "w": 165, "content": "empty", "fresh": {"at": "w24", "step": 0.13}}]},
+    {"type": "la-reveal", "start": "w39", "transition": "fade",
+     "lines": [{"text": "Dein Profil ist", "fromWord": 39}, {"text": "dein Schaufenster.", "fromWord": 42, "accent": ["Schaufenster"]}]},
+    {"type": "la-end", "start": "w49", "transition": "fade", "signoff": "Content, der den Daumen stoppt.", "fromWord": 49,
+     "outro": "Chispa!", "outroWord": 54}
+  ]
+}
+```
+
+### Worked example — GRAPHICS (`specs/bepicolombo.json`, ZOOMED OUT)
+
+```jsonc
+{
+  "id": "bepicolombo", "theme": "zoomedout", "tag": "SPACE", "date": "22 NOV 2026",
+  "voice": {"src": "demo/voice.mp3", "words": "demo/words.json"},
+  "music": {"src": "music/epic-1.mp3", "speechDb": -21, "gapDb": -14, "tailDb": -13},
+  "captions": {"red": ["mercury", "2018"]},
+  "scenes": [
+    {"type": "zoomOut", "start": 0, "mode": "space", "image": "demo/mercury_messenger.png", "pin": {"label": "MERCURY"}},
+    {"type": "photo", "start": "w9-0.1", "src": "demo/bepi_stack.jpg", "fg": "demo/bepi_stack_fg.png", "credit": "ESA–C. Carreau, CC BY-SA 3.0 IGO"},
+    {"type": "counter", "start": "w33-0.1", "value": 9, "unit": "FLYBYS"},
+    {"type": "end", "start": "w78-0.15", "transition": "bracket"}
+  ]
+}
+```
+(abridged — see the full file for every prop).

@@ -5,7 +5,8 @@ import {clamp, ease, lerp} from '../lib/anim';
 import {Brackets} from './Brackets';
 import {C, W, H} from '../theme';
 
-export const OVERLAP = 9; // frames of overlap for animated transitions
+export const OVERLAP = 9;
+export const FADE_OVERLAP = 12; // frames of overlap for animated transitions
 export const overlaps = (k: TransitionKind | undefined) => !(k === 'cut' || k === 'flash');
 
 /**
@@ -53,6 +54,10 @@ export const TransitionLayer: React.FC<{
       }
       case 'flash':
         flash = 1 - clamp(inP * 1.6);
+        break;
+      case 'fade':
+        op *= ease.inOut(clamp(inP));
+        sc *= lerp(1.03, 1, ease.out(clamp(inP)));
         break;
     }
   }

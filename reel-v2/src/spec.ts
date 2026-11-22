@@ -1,7 +1,7 @@
 // ZOOMED OUT reel spec — the JSON contract between the daily routine and the engine.
 export type Word = [string, number, number]; // [text, startSec, endSec] (already speed-adjusted)
 
-export type TransitionKind = 'cut' | 'whip' | 'whipUp' | 'zoom' | 'bracket' | 'flash';
+export type TransitionKind = 'cut' | 'whip' | 'whipUp' | 'zoom' | 'bracket' | 'flash' | 'fade';
 
 export type SceneBase = {
   type: string;
@@ -11,6 +11,8 @@ export type SceneBase = {
   transition?: TransitionKind;
   /** show word captions during this scene (default true) */
   captions?: boolean;
+  /** LINEART: hide the typed narration during this scene (default true) */
+  narration?: boolean;
   /** optional kinetic title drawn on top of this scene */
   overlay?: KineticProps;
   [k: string]: unknown;
@@ -23,6 +25,13 @@ export type Sfx = {src: string; at: number; volume?: number};
 
 export type ReelSpec = {
   id: string;
+  /** colours / fonts / logo / end card: "zoomedout" | "behindthebrand" | "chispa" (src/themes.ts) */
+  theme?: string;
+  /** "graphics" (photo/news scenes + top bar + word captions) or "lineart" (la-* scenes + typed narration).
+   *  Default: "lineart" when the first scene is an la-* scene. */
+  mode?: 'graphics' | 'lineart';
+  /** LINEART narration: typed word by word, one sentence at a time (pos "bottom" = lower-left, "top" = top-left) */
+  narration?: {pos?: 'bottom' | 'top'; x?: number; y?: number; size?: number; width?: number} | false;
   fps?: number;
   width?: number;
   height?: number;
