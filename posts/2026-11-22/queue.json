@@ -35,14 +35,17 @@
   {
    "time_berlin": "14:00",
    "type": "carousel",
-   "status": "manual",
+   "status": "posted",
    "path": "CAROUSELS/3-voyager-light-day",
    "slides": [
     "1.jpg",
     "2.jpg",
     "3.jpg",
     "4.jpg"
-   ]
+   ],
+   "media_id": "18103592570387535",
+   "posted_at": "2026-11-22T11:55:01+00:00",
+   "permalink": "https://www.instagram.com/p/DgCvtgdj2jP/"
   },
   {
    "time_berlin": "17:00",
