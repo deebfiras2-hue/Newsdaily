@@ -1,0 +1,42 @@
+{
+ "out": "posts/2026-11-23/CAROUSELS/2-monday-map-population",
+ "date": "NOV 23, 2026",
+ "category": "MONDAY MAP",
+ "tag": "TODAY",
+ "source": "UN DESA World Population Prospects 2024, INED",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "headline": "China could lose over half its people by 2100",
+   "highlight": [
+    "over half"
+   ],
+   "subline": "**UN projection:** from 1,416 million today to about 633 million."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "PLACEHOLDER",
+   "body": "x"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "CHINA",
+   "body": "The UN projects China's population falls from about **1,416 million in 2025** to about [[633 million in 2100]]. That could be the largest population loss of any country."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "INDIA & USA",
+   "body": "**India** peaks near 1.7 billion in the early 2060s, then declines to about 1.5 billion, yet stays [[number one]]. The **US** grows to 421 million but slips from third place to [[sixth]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "These are **projections**, not promises. They rest on assumptions about births, deaths and migration. Which of these countries will surprise us most? Tell us below."
+  }
+ ]
+}

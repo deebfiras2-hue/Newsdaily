@@ -1,0 +1,54 @@
+{
+ "out": "posts/2026-11-23/CAROUSELS/5-recap-5-things",
+ "date": "NOV 23, 2026",
+ "category": "RECAP",
+ "tag": "THIS WEEK",
+ "source": "Reuters, Al Jazeera, Carbon Brief, CREA, TSMC filing",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "headline": "5 things you probably missed this week",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Chips, climate, outages and more.** Swipe for the quick version."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | AI MONEY",
+   "body": "TSMC's board approved up to **$1 billion** in AI stakes: [[$500 million]] in Anthropic and **$500 million** in OpenAI. Both companies rely on TSMC chips."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | GLOBAL OUTAGE",
+   "body": "On Nov. 12, a **Microsoft 365 outage** hit Outlook, Teams and Copilot in dozens of countries. Microsoft said it found [[no evidence]] of malicious activity."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | CLIMATE",
+   "body": "China's CO2 emissions fell **3.1%** in Q3 2026, the [[biggest quarterly drop]] since the pandemic, says analysis by CREA for Carbon Brief. Mild weather helped."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | COP31",
+   "body": "UN climate talks in **Antalya, Turkey** were stuck on fossil fuels as of Nov. 18. Oil producers including [[Saudi Arabia]] were resisting stronger language."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | HEALTH",
+   "body": "The US officially lost its [[measles elimination status]] on Nov. 17 after 26 years. Mexico lost it too."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these surprised you most? Tell us below."
+  }
+ ]
+}

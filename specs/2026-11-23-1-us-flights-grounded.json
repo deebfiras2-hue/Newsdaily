@@ -1,0 +1,47 @@
+{
+ "out": "posts/2026-11-23/CAROUSELS/1-us-flights-grounded",
+ "date": "NOV 23, 2026",
+ "category": "WORLD",
+ "tag": "NOV 13",
+ "source": "FAA, FlightAware, Al Jazeera",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-23/src/c1.jpg",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "headline": "The US just grounded every single flight",
+   "highlight": [
+    "every single flight"
+   ],
+   "subline": "**More than 9,100 flights were canceled** on Nov. 13, according to FlightAware.",
+   "credit": "Bobby Hidy / CC BY-SA 2.0"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "On **Friday, Nov. 13**, the FAA ordered a [[nationwide ground stop]]. No plane could take off anywhere in the US. It lasted **more than four hours**, the longest of its kind since 9/11."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE DAMAGE",
+   "body": "FlightAware counted **9,100+ canceled flights** and **24,500+ delayed** flights that day. Air travel was still [[slowly recovering]] days later."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE CAUSE",
+   "body": "The FAA blamed [[intermittent telecom outages]]. Reports point to a router at a communications site that was being upgraded. The probe is still open. Homeland Security saw **no sign of an attack** but ruled nothing out."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT MATTERS",
+   "body": "Hours earlier, a separate **Microsoft 365 outage** hit users worldwide. Officials said the two were [[not connected]]. Should systems this critical be this fragile? Tell us below."
+  }
+ ]
+}

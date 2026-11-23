@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-23",
+ "items": [
+  {
+   "id": "c1",
+   "type": "carousel",
+   "slot": "wow",
+   "time_utc": "2026-11-23T07:00:00Z",
+   "files": [
+    "posts/2026-11-23/CAROUSELS/1-us-flights-grounded/1.jpg",
+    "posts/2026-11-23/CAROUSELS/1-us-flights-grounded/2.jpg",
+    "posts/2026-11-23/CAROUSELS/1-us-flights-grounded/3.jpg",
+    "posts/2026-11-23/CAROUSELS/1-us-flights-grounded/4.jpg",
+    "posts/2026-11-23/CAROUSELS/1-us-flights-grounded/5.jpg"
+   ],
+   "caption": "The US just grounded every single flight ✈️\n\nOn Friday, Nov. 13, the FAA ordered a nationwide ground stop.\nNo plane could take off anywhere in the US for more than four hours.\nFlightAware counted 9,100+ canceled flights and 24,500+ delays.\nThe FAA blamed intermittent telecom outages. Homeland Security saw no sign of an attack, but the probe is open.\n\nShould systems this critical be this fragile? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: FAA, FlightAware, Al Jazeera, Fox Weather\nPhotos: Bobby Hidy / CC BY-SA 2.0\n\n#zoomedout #news #worldnews #flights #faa #aviation #travel #airlines #breakingnews #usa #technology #outage #airtravel",
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c2",
+   "type": "carousel",
+   "slot": "monday-map",
+   "time_utc": "2026-11-23T10:00:00Z",
+   "files": [
+    "posts/2026-11-23/CAROUSELS/2-monday-map-population/1.jpg",
+    "posts/2026-11-23/CAROUSELS/2-monday-map-population/2.jpg",
+    "posts/2026-11-23/CAROUSELS/2-monday-map-population/3.jpg",
+    "posts/2026-11-23/CAROUSELS/2-monday-map-population/4.jpg",
+    "posts/2026-11-23/CAROUSELS/2-monday-map-population/5.jpg"
+   ],
+   "caption": "China could lose over half its people by 2100 🗺️\n\nThat's the UN's projection: from about 1,416 million in 2025 to about 633 million in 2100.\nIndia (1,464 million in 2025) stays number one, peaking near 1.7 billion in the 2060s.\nThe US grows to 421 million but slips from 3rd to 6th place.\n\nThese are projections, not promises. Which country will surprise us most? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: UN DESA World Population Prospects 2024 (medium variant), via INED\nPhotos: text and chart only\n\n#zoomedout #news #worldnews #mondaymap #population #china #india #usa #demographics #un #geography #data #worldpopulation",
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c3",
+   "type": "carousel",
+   "slot": "good-news",
+   "time_utc": "2026-11-23T13:00:00Z",
+   "files": [
+    "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic/1.jpg",
+    "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic/2.jpg",
+    "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic/3.jpg",
+    "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic/4.jpg",
+    "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic/5.jpg"
+   ],
+   "caption": "A $28,000 HIV shot now has a $40 version 🙌\n\nThe FDA tentatively approved the first generic of lenacapavir, a long-acting HIV-prevention injection.\nThe US list price of the branded shot is $28,218 a year.\nThe generic, made by Dr. Reddy's, is expected to cost about $40 per person per year in lower-income countries.\nIt targets 120 low- and middle-income countries, with supplies due in some places within weeks.\n\nWhat medical breakthrough do you want to see next? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: AP, Unitaid, FDA\nPhotos: The White House / Public domain\n\n#zoomedout #news #worldnews #goodnews #hiv #health #medicine #fda #lenacapavir #publichealth #breakthrough #science #positivenews",
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c4",
+   "type": "carousel",
+   "slot": "numbers",
+   "time_utc": "2026-11-23T16:00:00Z",
+   "files": [
+    "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status/1.jpg",
+    "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status/2.jpg",
+    "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status/3.jpg",
+    "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status/4.jpg",
+    "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status/5.jpg"
+   ],
+   "caption": "The US just lost its measles-free status after 26 years.\n\nOn Nov. 17, the Pan American Health Organization made it official.\nAbout 7,500 people in the US have caught measles since 2025, and 13 have died.\nKindergarten MMR coverage has fallen to 92.4%, below the roughly 95% experts say is needed.\nMexico lost its status too. The US must go 12 months without continuous spread to win it back.\n\nAre you surprised measles is back in the headlines? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: Reuters, AP, Al Jazeera, ABC News, PAHO\nPhotos: CDC / Cynthia S. Goldsmith / Public domain\n\n#zoomedout #news #worldnews #measles #health #vaccines #publichealth #cdc #paho #usa #mexico #healthnews #mmr",
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c5",
+   "type": "carousel",
+   "slot": "recap",
+   "time_utc": "2026-11-23T19:00:00Z",
+   "files": [
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/1.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/2.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/3.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/4.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/5.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/6.jpg",
+    "posts/2026-11-23/CAROUSELS/5-recap-5-things/7.jpg"
+   ],
+   "caption": "5 things you probably missed this week 🌍\n\n1. TSMC approved up to $1B in AI stakes: $500M in Anthropic, $500M in OpenAI.\n2. A Microsoft 365 outage hit Outlook, Teams and Copilot in dozens of countries.\n3. China's CO2 emissions fell 3.1% in Q3, the biggest quarterly drop since the pandemic.\n4. UN climate talks in Antalya were stuck on fossil fuels as of Nov. 18.\n5. The US officially lost its measles elimination status.\n\nWhich of these surprised you most? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: Reuters, Al Jazeera, Carbon Brief, CREA, TSMC filing\nPhotos: text-only post\n\n#zoomedout #news #worldnews #recap #weeklyrecap #ai #tsmc #climate #cop31 #microsoft #china #health #tech",
+   "verified": true,
+   "status": "ready"
+  }
+ ]
+}

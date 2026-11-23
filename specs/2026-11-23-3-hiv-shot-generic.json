@@ -1,0 +1,47 @@
+{
+ "out": "posts/2026-11-23/CAROUSELS/3-hiv-shot-generic",
+ "date": "NOV 23, 2026",
+ "category": "GOOD NEWS",
+ "tag": "NOV 2",
+ "source": "AP, Unitaid, FDA",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-23/src/c3.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "A $28,000 HIV shot now has a $40 version",
+   "highlight": [
+    "$40"
+   ],
+   "subline": "**The FDA tentatively approved** the first generic of lenacapavir, a long-acting HIV-prevention injection.",
+   "credit": "The White House / Public domain"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "The FDA gave **tentative approval** to a generic made by **Dr. Reddy's Laboratories**. It is the first generic version of lenacapavir, the HIV-prevention shot from Gilead."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PRICE",
+   "body": "In the US, the branded shot lists at **$28,218 a year**. The generic is expected to cost about [[$40 per person per year]] in lower-income countries."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHO GETS IT",
+   "body": "The approval targets **120 low- and middle-income countries**. Supplies should start to arrive in some places [[within weeks]], though some countries need their own approval first."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT MATTERS",
+   "body": "One injection can protect a person for months. A price this low could put it in reach of [[millions]] who could not afford it. What medical breakthrough do you want to see next? Tell us below."
+  }
+ ]
+}

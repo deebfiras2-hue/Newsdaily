@@ -1,0 +1,47 @@
+{
+ "out": "posts/2026-11-23/CAROUSELS/4-us-loses-measles-status",
+ "date": "NOV 23, 2026",
+ "category": "HEALTH",
+ "tag": "NOV 17",
+ "source": "Reuters, AP, Al Jazeera, ABC News, PAHO",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-23/src/c4.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "The US just lost its measles-free status",
+   "highlight": [
+    "lost"
+   ],
+   "subline": "**After 26 years.** The Pan American Health Organization made it official on Nov. 17.",
+   "credit": "CDC / Cynthia S. Goldsmith / Public domain"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NUMBERS",
+   "body": "Since 2025, about [[7,500 people]] in the US have caught measles and **13 have died**. The US had held its elimination status since **2000**. Mexico lost its status too."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE THRESHOLD",
+   "body": "Kindergarten MMR vaccination has fallen to **92.4%**. Experts say about [[95%]] is needed to stop measles from spreading. That gap lets outbreaks keep going."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT'S NEXT",
+   "body": "The US must submit a **corrective action plan**, then go [[12 months]] without continuous spread to win the status back. The CDC says it will work toward that."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TAKEAWAY",
+   "body": "Officials note the label itself does not protect anyone. **Vaccination does.** Are you surprised measles is back in the headlines? Tell us below."
+  }
+ ]
+}
