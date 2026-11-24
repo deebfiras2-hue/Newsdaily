@@ -1,0 +1,53 @@
+{
+ "out": "posts/2026-11-24/CAROUSELS/3-womens-world-cup-2031",
+ "date": "NOV 24, 2026",
+ "category": "GOOD NEWS",
+ "tag": "NOV 23",
+ "source": "PBS, Reuters, DW",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-24/src/c3.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "The Women’s World Cup is getting its biggest stage yet",
+   "highlight": [
+    "biggest"
+   ],
+   "subline": "**FIFA picked the 2031 and 2035 hosts.** The 2031 tournament grows to 48 teams.",
+   "credit": "U.S. Department of State / Public domain"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2031: FOUR NATIONS",
+   "body": "The **United States** will co-host with **Mexico, Costa Rica and Jamaica**. The bid offers [[20 venues]]: 14 in the US, four in Mexico, plus San José and Kingston."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2035: THE UK",
+   "body": "A United Kingdom bid led by England was ratified, with [[19 venues]] across England, Northern Ireland, Scotland and Wales, including **Wembley**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE BIG CHANGE",
+   "body": "The 2031 tournament will have [[48 teams]] for the first time. The 2027 event in Brazil has 32. More teams means more countries get a shot at the stage."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PROMISE",
+   "body": "Both bids passed by acclamation, with **no rival bids**. FIFA’s president and the winning candidates pledged to reinvest all profits in [[women’s soccer]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Four host nations in 2031, and a UK final in 2035. Which match would you travel to see? Tell us below."
+  }
+ ]
+}

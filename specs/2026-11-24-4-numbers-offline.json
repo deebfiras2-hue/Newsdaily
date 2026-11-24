@@ -1,0 +1,46 @@
+{
+ "out": "posts/2026-11-24/CAROUSELS/4-numbers-offline",
+ "date": "NOV 24, 2026",
+ "category": "THE WORLD IN NUMBERS",
+ "tag": "ITU 2024",
+ "source": "ITU Facts and Figures 2024",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "2.6 billion people still can’t get online",
+   "highlight": [
+    "2.6 billion"
+   ],
+   "subline": "**The internet gap is huge.** ITU data, 2024."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE BIG PICTURE",
+   "body": "In 2024, an estimated [[5.5 billion people]] used the internet. That is **68%** of the world. The other [[2.6 billion]] were offline."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "RICH VS POOR",
+   "body": "In **high-income** countries, [[93%]] of people used the internet. In **low-income** countries, only [[27%]] did."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "CITY VS COUNTRYSIDE",
+   "body": "Worldwide, **83%** of city dwellers were online in 2024, against just [[48%]] of people in rural areas."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT MATTERS",
+   "body": "Being offline can mean **no access** to online jobs, schooling and services. What should be done first to close the gap? Tell us below."
+  }
+ ]
+}

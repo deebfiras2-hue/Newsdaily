@@ -7,3 +7,4 @@
 - Env secrets (never committed): `ELEVENLABS_API_KEY`, `PEXELS_API_KEY`. Voiced-reel pipeline (voice, word captions, Pexels, SFX) is still TODO: needs valid keys.
 
 - Today: [posts/2026-11-23](posts/2026-11-23/captions.md)
+- Today: [posts/2026-11-24](posts/2026-11-24/captions.md)

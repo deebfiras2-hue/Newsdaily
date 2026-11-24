@@ -1,0 +1,53 @@
+{
+ "out": "posts/2026-11-24/CAROUSELS/1-istanbul-lioness",
+ "date": "NOV 24, 2026",
+ "category": "WAIT, WHAT?!",
+ "tag": "TODAY",
+ "source": "AP, Al Jazeera, Goal",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-24/src/c1.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "Istanbul hunted a ‘lioness’. It wasn’t a lion",
+   "highlight": [
+    "wasn’t a lion"
+   ],
+   "subline": "**70+ officers, drones and thermal cameras** searched woodland near Istanbul.",
+   "credit": "Mostafameraji / CC BY-SA 4.0 (Belgrade Forest, file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE ALARM",
+   "body": "Police spotted a big cat on **security cameras** in Zekeriyaköy, in Istanbul’s Sarıyer district. Officials said it was a [[lioness]] and closed nearby woodland."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE HUNT",
+   "body": "More than [[70 personnel]] joined in, backed by **drones, vets and thermal imaging**. The governor’s office said the aim was to capture it **alive**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE ODD DETAIL",
+   "body": "The district mayor said the animal had not harmed **chickens** it passed. His theory: it was hand-reared. He still warned people to treat it as [[dangerous]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TWIST",
+   "body": "Then came new footage. Turkish authorities now say it was [[not a lion]]. The animal was seen in a private garden. Officials have not said what species it was."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "One blurry camera frame sent a whole city into **panic**. Would you have believed it was a lion too? Tell us below."
+  }
+ ]
+}

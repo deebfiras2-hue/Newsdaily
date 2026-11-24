@@ -1,0 +1,58 @@
+{
+ "out": "posts/2026-11-24/CAROUSELS/5-recap-day-in-5",
+ "date": "NOV 24, 2026",
+ "category": "RECAP",
+ "tag": "NOV 23",
+ "source": "DW, The Guardian, Reuters, CNBC, AP, WRGB",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "5 things you probably missed on Nov. 23",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Chips, cyber deals, courts and cars.** Swipe for the quick version."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | NVIDIA · NOV 23",
+   "body": "Nvidia **reinstated Jensen Huang** as CEO despite a China espionage scandal, DW and The Guardian report. The Guardian says President Trump [[intervened]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | CYBER DEAL · NOV 23",
+   "body": "**CrowdStrike** agreed to buy **Zscaler** in an all-stock deal valued at about [[$43.9 billion]], Reuters and CNBC report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | ICC · NOV 23",
+   "body": "**Tajikistan** announced it is leaving the International Criminal Court, Reuters reports. It is the [[fourth country]] to withdraw since a US diplomatic push."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | CARS · NOV 23",
+   "body": "New York’s governor signed a law barring fees to switch on [[car features already installed]], local outlets report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | RECALL · NOV 23",
+   "body": "**Honda** is recalling more than [[810,000 vehicles]] in the US over an airbag inflator issue, AP reports."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these will matter most a year from now? Tell us below."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "out": "posts/2026-11-24/CAROUSELS/2-explained-cop31",
+ "date": "NOV 24, 2026",
+ "category": "EXPLAINED",
+ "tag": "NOV 22",
+ "source": "UN News, Al Jazeera, DW, BBC, CBC",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "Why did the world’s climate talks just collapse?",
+   "highlight": [
+    "collapse"
+   ],
+   "subline": "**COP31 in Antalya ended without a deal.** Here is what went wrong."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "The UN climate summit in **Antalya, Türkiye** ran two days over, then closed on **Nov. 22** with [[no overall agreement]]. CBC says it is the first time since 2009."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT FAILED",
+   "body": "Countries rejected the draft text. The EU and others said it did not deal with how to move away from [[fossil fuels]] or how to fund climate action in poorer countries."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT SURVIVED",
+   "body": "It was not a total blank. UN Climate Change chief Simon Stiell pointed to a deal on a [[just transition]] and a set of **Action Agenda** initiatives."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE UN REACTION",
+   "body": "Secretary-General António Guterres said he was **deeply disappointed**, but stressed there is [[no ambiguity in the science]]: fossil fuels remain the main driver of warming."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT IT MEANS",
+   "body": "Without a shared text, **no new global promise** was made on fossil fuels or money this year. Should climate talks stay in the UN, or find a new format? Tell us below."
+  }
+ ]
+}
