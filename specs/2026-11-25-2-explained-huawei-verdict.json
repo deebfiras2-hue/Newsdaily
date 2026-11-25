@@ -1,0 +1,53 @@
+{
+ "date": "NOV 25, 2026",
+ "category": "EXPLAINED",
+ "tag": "NOV 24",
+ "source": "Al Jazeera (AP, Reuters), DW, BBC, CNN",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-25/src/c2.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "Huawei was found guilty in the US. Why it matters",
+   "highlight": [
+    "guilty"
+   ],
+   "subline": "**Explained:** what the jury decided, and what happens next.",
+   "credit": "Raysonho @ Open Grid Scheduler / Grid Engine / CC0 (file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "On Tuesday a US jury convicted Huawei on **10 of 12 charges**, including [[conspiracy to steal trade secrets]], bank fraud and sanctions violations."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT IT WASN’T",
+   "body": "Jurors **acquitted** Huawei of the most serious charge: a [[racketeering conspiracy]], a charge usually used against organised crime."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE BACKSTORY",
+   "body": "Prosecutors said Huawei stole secrets from US firms and did business in **Iran and North Korea**. The case began in [[2018]]. In 2019 the US put Huawei on a trade blacklist."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "HUAWEI’S SIDE",
+   "body": "Its lawyers said investigators used **isolated incidents** by a few of 200,000+ employees to build a false story. Huawei says it plans to [[appeal]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT IT MEANS",
+   "body": "Experts say the case has **not hurt** Huawei’s business. It diversified and is now a key player in China’s [[AI push]]. Does a US verdict change how you see Huawei?"
+  }
+ ],
+ "out": "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict"
+}

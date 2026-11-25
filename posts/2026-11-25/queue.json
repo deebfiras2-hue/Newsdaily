@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "id": "c1",
+      "type": "carousel",
+      "slot": "wow",
+      "time_utc": "2026-11-25T07:00:00Z",
+      "files": [
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/1.jpg",
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/2.jpg",
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/3.jpg",
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/4.jpg",
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/5.jpg",
+        "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner/6.jpg"
+      ],
+      "caption": "China just launched its first foreign astronaut 🚀\n\nA Pakistani pilot is now on his way to China’s Tiangong space station.\nMuhammad Zeeshan Ali is the first foreigner on a Chinese crewed mission.\nHis visit is brief: he returns with two Shenzhou-23 crew members.\nOne of them, commander Zhu Yangzhu, stays a full year.\n\nShould space stations be open to every country? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: AP, Reuters, BBC, DW\nPhotos: ForrestXYC, photoshopped by Ib / CC BY-SA 4.0 (Shenzhou-13 launch, file photo)\n\n#zoomedout #news #worldnews #china #pakistan #space #tiangong #shenzhou24 #astronaut #spaceexploration",
+      "story_date": "2026-11-25",
+      "sources": [
+        {
+          "outlet": "AP",
+          "url": "https://apnews.com",
+          "published": "2026-11-25"
+        },
+        {
+          "outlet": "Reuters",
+          "url": "https://www.reuters.com",
+          "published": "2026-11-25"
+        },
+        {
+          "outlet": "BBC",
+          "url": "https://www.bbc.com",
+          "published": "2026-11-25"
+        },
+        {
+          "outlet": "DW",
+          "url": "https://www.dw.com/en/china-launches-shenzhou-24-to-tiangong-station/a-80042281",
+          "published": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "status": "ready"
+    },
+    {
+      "id": "c2",
+      "type": "carousel",
+      "slot": "explained",
+      "time_utc": "2026-11-25T10:00:00Z",
+      "files": [
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/1.jpg",
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/2.jpg",
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/3.jpg",
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/4.jpg",
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/5.jpg",
+        "posts/2026-11-25/CAROUSELS/2-explained-huawei-verdict/6.jpg"
+      ],
+      "caption": "A US jury just found Huawei guilty. Here’s the quick version ⚖️\n\nGuilty on 10 of 12 charges, including conspiracy to steal trade secrets.\nCleared of the biggest one: racketeering conspiracy.\nProsecutors also cited business in Iran and North Korea.\nHuawei says it will appeal.\n\nDoes a US verdict change how you see Huawei? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: Al Jazeera (AP, Reuters), DW, BBC, CNN\nPhotos: Raysonho @ Open Grid Scheduler / Grid Engine / CC0 (file photo)\n\n#zoomedout #news #worldnews #huawei #china #usa #tech #trial #explained #business #technology",
+      "story_date": "2026-11-24",
+      "sources": [
+        {
+          "outlet": "Al Jazeera (AP, Reuters)",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "DW",
+          "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "BBC",
+          "url": "https://www.bbc.com",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "CNN",
+          "url": "https://www.cnn.com",
+          "published": "2026-11-24"
+        }
+      ],
+      "verified": true,
+      "status": "ready"
+    },
+    {
+      "id": "c3",
+      "type": "carousel",
+      "slot": "evergreen",
+      "time_utc": "2026-11-25T13:00:00Z",
+      "files": [
+        "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day/1.jpg",
+        "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day/2.jpg",
+        "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day/3.jpg",
+        "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day/4.jpg",
+        "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day/5.jpg"
+      ],
+      "caption": "On Venus, one day lasts longer than one year 🪐\n\nVenus orbits the Sun in about 225 Earth days.\nIt spins once in about 243 Earth days.\nIt also spins backwards, so the Sun rises in the west.\nThe surface is about 465°C, hotter than Mercury.\n\nWhich planet would you most want to visit? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: NASA\nPhotos: NASA/JPL / Public domain (Venus, Magellan radar data)\n\n#zoomedout #news #worldnews #venus #space #nasa #didyouknow #science #planets #astronomy #solarsystem",
+      "story_date": "evergreen",
+      "sources": [],
+      "verified": true,
+      "status": "ready"
+    },
+    {
+      "id": "c4",
+      "type": "carousel",
+      "slot": "numbers",
+      "time_utc": "2026-11-25T16:00:00Z",
+      "files": [
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/1.jpg",
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/2.jpg",
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/3.jpg",
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/4.jpg",
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/5.jpg",
+        "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025/6.jpg"
+      ],
+      "caption": "47,000 women and girls were killed by partners or family in 2025.\n\nThat is about five every hour, says a new UN report.\nIt is around 60% of all women and girls killed intentionally.\nAfrica had the highest rate: 2.9 per 100,000 women.\nThe UN says the dip from 2024 (50,000) is not a real decline.\n\nIs enough being done to stop this? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: UNODC and UN Women (2025 data, released Nov 24, 2026), via UN News, Al Jazeera, DW\n\n#zoomedout #news #worldnews #worldinnumbers #un #unwomen #womensrights #data #endviolenceagainstwomen #orangetheworld #humanrights",
+      "story_date": "2025-data (report 2026-11-24)",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168863",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "DW",
+          "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010",
+          "published": "2026-11-24"
+        }
+      ],
+      "verified": true,
+      "status": "ready"
+    },
+    {
+      "id": "c5",
+      "type": "carousel",
+      "slot": "recap",
+      "time_utc": "2026-11-25T19:00:00Z",
+      "files": [
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/1.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/2.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/3.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/4.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/5.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/6.jpg",
+        "posts/2026-11-25/CAROUSELS/5-recap-day-in-5/7.jpg"
+      ],
+      "caption": "5 things you probably missed on Nov. 24-25 👀\n\n1. China launched Shenzhou-24 with a Pakistani astronaut (Nov 25)\n2. A US jury convicted Huawei, but cleared it of racketeering (Nov 24)\n3. Australia’s inflation hit 4.9% (Nov 25)\n4. Landmine casualties hit a five-year high: 6,929 in 2025 (Nov 24)\n5. Kilmar Abrego Garcia left the US for Spain (Nov 24)\n\nWhich of these will matter most a year from now? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: AP, DW, Al Jazeera, The Guardian, Reuters, ABS, Landmine Monitor\n\n#zoomedout #news #worldnews #recap #space #huawei #inflation #landmines #australia #china #dailynews",
+      "story_date": "2026-11-25",
+      "sources": [
+        {
+          "outlet": "DW",
+          "url": "https://www.dw.com/en/china-launches-shenzhou-24-to-tiangong-station/a-80042281",
+          "published": "2026-11-25"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/25/inflation-rate-australia-october-figures",
+          "published": "2026-11-25"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria",
+          "published": "2026-11-24"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+          "published": "2026-11-24"
+        }
+      ],
+      "verified": true,
+      "status": "ready"
+    }
+  ]
+}

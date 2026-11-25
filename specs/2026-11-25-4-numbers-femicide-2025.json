@@ -1,0 +1,52 @@
+{
+ "date": "NOV 25, 2026",
+ "category": "THE WORLD IN NUMBERS",
+ "tag": "UN 2025",
+ "source": "UNODC and UN Women, 2026 report (2025 data)",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "47,000 women and girls killed by partners or family",
+   "highlight": [
+    "47,000"
+   ],
+   "subline": "**That is about five every hour.** UN data for 2025, released Nov 24."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE BIG PICTURE",
+   "body": "In 2025 about [[47,000]] women and girls were killed by an intimate partner or family member. That is **129 a day**, roughly [[five every hour]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE SHARE",
+   "body": "They made up about **60%** of all women and girls killed intentionally worldwide in 2025. The figures cover **122 countries and territories**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "BY REGION",
+   "body": "Africa [[22,100]] · Asia **15,100** · Americas **7,400** · Europe **2,100** · Oceania **300**. These are totals, so they also reflect population size."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "PER 100,000 WOMEN",
+   "body": "Adjusted for population, Africa is highest at [[2.9]], then the Americas **1.4**, Oceania **1.1**, Asia **0.6** and Europe **0.5**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE CAVEAT",
+   "body": "The 2024 estimate was **50,000**. The UN says the lower 2025 figure is **not a real decline**; it largely reflects better data. Is enough being done to stop this?"
+  }
+ ],
+ "out": "posts/2026-11-25/CAROUSELS/4-numbers-femicide-2025"
+}

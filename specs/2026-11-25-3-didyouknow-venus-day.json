@@ -1,0 +1,47 @@
+{
+ "date": "NOV 25, 2026",
+ "category": "DID YOU KNOW",
+ "tag": "EVERGREEN",
+ "source": "NASA",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-25/src/c3.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "On Venus, a day is longer than a year",
+   "highlight": [
+    "longer than a year"
+   ],
+   "subline": "**It sounds impossible.** It isn’t. Swipe for the numbers.",
+   "credit": "NASA/JPL / Public domain (Venus, Magellan radar data)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NUMBERS",
+   "body": "Venus circles the Sun in about [[225 Earth days]]. But it spins once in about [[243 Earth days]]. One full turn takes **longer than its year**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "BACKWARDS",
+   "body": "Venus spins **backwards** compared with most planets. The Sun rises in the [[west]] and sets in the east. Sunrise to sunrise takes about **117 Earth days**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "HOTTER THAN MERCURY",
+   "body": "The surface is about [[465°C]], hot enough to melt lead, even though Mercury is **closer to the Sun**. Thick clouds trap the heat."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "The air pressure on Venus is about **90 times** Earth’s. Which planet would you most want to visit? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-25/CAROUSELS/3-didyouknow-venus-day"
+}

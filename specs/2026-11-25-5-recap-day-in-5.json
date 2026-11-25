@@ -1,0 +1,58 @@
+{
+ "date": "NOV 25, 2026",
+ "category": "RECAP",
+ "tag": "NOV 24-25",
+ "source": "DW, Al Jazeera, The Guardian, AP, Reuters, ABS",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "5 things you probably missed on Nov. 24-25",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Space, courts, prices and mines.** Swipe for the quick version."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | SPACE · NOV 25",
+   "body": "China launched **Shenzhou-24** with a [[Pakistani astronaut]], the first foreigner on a Chinese crewed mission, AP and DW report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | HUAWEI · NOV 24",
+   "body": "A US jury convicted **Huawei** of conspiracy to steal trade secrets and bank fraud, but cleared it of [[racketeering]]. Huawei plans to appeal."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | PRICES · NOV 25",
+   "body": "**Australia’s** inflation hit [[4.9%]] in the year to October, up from 4.3%, said the national statistics bureau. The Guardian reports."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | LANDMINES · NOV 24",
+   "body": "Landmine Monitor counted [[6,929]] people killed or injured by mines in **2025**, the most since 2020. Myanmar and Syria were worst hit."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | LEGAL BATTLE · NOV 24",
+   "body": "**Kilmar Abrego Garcia** left the US for Spain, lawyers said, ending a [[20-month]] legal fight. The Guardian and Al Jazeera report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these will matter most a year from now? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-25/CAROUSELS/5-recap-day-in-5"
+}

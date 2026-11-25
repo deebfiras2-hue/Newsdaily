@@ -1,0 +1,53 @@
+{
+ "date": "NOV 25, 2026",
+ "category": "WAIT, WHAT?!",
+ "tag": "TODAY",
+ "source": "AP, Reuters, BBC, DW",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-25/src/c1.jpg",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "headline": "China launched its first foreign astronaut",
+   "highlight": [
+    "first foreign astronaut"
+   ],
+   "subline": "**A Pakistani pilot** is on his way to China’s Tiangong space station.",
+   "credit": "ForrestXYC, photoshopped by Ib / CC BY-SA 4.0 (Shenzhou-13 launch, file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE LAUNCH",
+   "body": "Shenzhou-24 lifted off on a **Long March-2F** rocket from the Jiuquan centre in the Gobi Desert at 8:18 am local time. China called it a [[complete success]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE FIRST",
+   "body": "Pakistani pilot [[Muhammad Zeeshan Ali]] is the **first foreigner** to fly on a Chinese crewed mission. “I carry the **hopes of 250 million** Pakistanis,” he said."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE CATCH",
+   "body": "His trip is a **brief visit**. He will return to Earth with Shenzhou-23 crew members **Lai Ka-ying**, Hong Kong’s first astronaut, and Zhang Zhiyuan."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE LONG STAY",
+   "body": "Shenzhou-23 commander **Zhu Yangzhu** stays on board for [[a full year]]. Reuters says it will be the longest single stay by a Chinese astronaut."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "China aims to land astronauts on the Moon by **2030**; the US is aiming for 2028. Should space stations be open to every country? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-25/CAROUSELS/1-shenzhou-first-foreigner"
+}
