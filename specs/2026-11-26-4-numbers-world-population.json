@@ -1,0 +1,52 @@
+{
+ "date": "NOV 26, 2026",
+ "category": "THE WORLD IN NUMBERS",
+ "tag": "UN 2024",
+ "source": "UN World Population Prospects 2024",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "Humanity will stop growing at 10.3 billion",
+   "highlight": [
+    "10.3 billion"
+   ],
+   "subline": "**UN projections** say the peak arrives in the 2080s."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NOW",
+   "body": "The UN estimated the world had about [[8.2 billion]] people in **2024**. The same report says the population will keep growing for another **50 to 60 years**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PEAK",
+   "body": "Then it stops. The UN’s medium projection tops out near [[10.3 billion]] in the **mid-2080s**, then edges down to about **10.2 billion** by 2100."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE SHIFT",
+   "body": "The global fertility rate fell from **4.9 births per woman in 1950** to [[2.25]] in 2024. Replacement level is about 2.1."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "ALREADY THERE",
+   "body": "One in four people live in a country whose population has [[already peaked]], the UN says. Life expectancy hit **73.3 years** in 2024."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Fewer people, longer lives. Is a shrinking world a problem or a relief? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-26/CAROUSELS/4-numbers-world-population"
+}

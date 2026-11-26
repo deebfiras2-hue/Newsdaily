@@ -9,3 +9,4 @@
 - Today: [posts/2026-11-23](posts/2026-11-23/captions.md)
 - Today: [posts/2026-11-24](posts/2026-11-24/captions.md)
 - Today: [posts/2026-11-25](posts/2026-11-25/captions.md)
+- Today: [posts/2026-11-26](posts/2026-11-26/captions.md)

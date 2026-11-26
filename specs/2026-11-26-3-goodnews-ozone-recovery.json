@@ -1,0 +1,52 @@
+{
+ "date": "NOV 26, 2026",
+ "category": "GOOD NEWS",
+ "tag": "EXPLAINED",
+ "source": "UN Environment Programme / WMO Ozone Assessment 2022",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "The world fixed the hole in the sky",
+   "highlight": [
+    "fixed"
+   ],
+   "subline": "**The ozone layer** is healing. Here is how humanity pulled it off."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PROBLEM",
+   "body": "In the 1980s scientists found a growing hole in the **ozone layer** over Antarctica. It shields us from harmful ultraviolet rays. The culprit: chemicals in [[fridges and spray cans]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE FIX",
+   "body": "In **1987** nearly every country signed the Montreal Protocol to phase those chemicals out. It is the first UN treaty ever ratified by [[every country]] on Earth."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE RESULT",
+   "body": "The UN-backed 2022 assessment found about **99%** of banned ozone-depleting substances have been phased out. The layer is [[on the mend]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE FORECAST",
+   "body": "Experts project recovery to 1980 levels around **2040** for most of the world, about **2045** over the Arctic and about [[2066]] over Antarctica."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "The proof that the world can solve a global problem together. Which problem should we tackle next? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-26/CAROUSELS/3-goodnews-ozone-recovery"
+}

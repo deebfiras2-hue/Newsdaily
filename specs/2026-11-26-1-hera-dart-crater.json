@@ -1,0 +1,53 @@
+{
+ "date": "NOV 26, 2026",
+ "category": "WAIT, WHAT?!",
+ "tag": "TODAY",
+ "source": "ESA, CNN, NYT, Space.com",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-26/src/c1.jpg",
+   "focus": [
+    0.45,
+    0.4
+   ],
+   "headline": "NASA hit an asteroid. It left a stadium-sized crater",
+   "highlight": [
+    "stadium-sized crater"
+   ],
+   "subline": "**Europe’s Hera probe** has just sent the first close-ups, 4 years later.",
+   "credit": "ESA / Hera, Asteroid Framing Camera / CC BY-SA 3.0 IGO (Didymos and Dimorphos)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TEST",
+   "body": "In 2022 NASA crashed its **DART** spacecraft into a small asteroid called [[Dimorphos]] to see if humans can push a space rock off course. It worked: its orbit got **33 minutes shorter**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE MYSTERY",
+   "body": "Nobody knew what DART had done to the rock itself. Scientists argued: a **crater**, a **new shape**, or [[no change]] at all?"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE ANSWER",
+   "body": "Hera’s lead scientist says it is [[all three]]. The side DART hit is **flattened into a crater the size of a sports stadium**, spanning the asteroid’s whole width."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE SURPRISES",
+   "body": "Dimorphos is **tumbling wildly** in its orbit since the impact. And **hundreds of boulders**, a few metres wide, are floating around the pair."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT’S NEXT",
+   "body": "Hera moves in to about **13 km** in December. In January it releases two **shoebox-sized** CubeSats. Would you trust a spacecraft to save Earth from an asteroid? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-26/CAROUSELS/1-hera-dart-crater"
+}

@@ -1,0 +1,52 @@
+{
+ "date": "NOV 26, 2026",
+ "category": "EXPLAINED",
+ "tag": "NOV 24",
+ "source": "AFP, Reuters, ESPN, DW, NYT",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "Senegal have their Africa Cup title back. Here’s why",
+   "highlight": [
+    "title back"
+   ],
+   "subline": "**A court just reversed** one of football’s strangest rulings."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "In the **January final** against Morocco, Senegal’s players walked off in protest at a late penalty. Play restarted, Morocco’s penalty was saved, and Senegal won [[1-0]] in extra time."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TWIST",
+   "body": "In March, African football’s governing body, **CAF**, ruled the walk-off a forfeit. It handed Morocco the title with a [[3-0]] result on paper."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE VERDICT",
+   "body": "On **Nov 24** the Court of Arbitration for Sport set that aside. Its panel said the referee **restarted the match**, so the forfeit rules did not apply. The [[1-0]] stands."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE REACTIONS",
+   "body": "Senegal’s federation called it “justice for sport”. **Morocco** disputed the verdict and vowed to use [[all legal avenues]]. CAF said it accepts the ruling."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT’S NEXT",
+   "body": "Morocco’s challenge is still pending, so the story may not be over. Should a match result ever be decided in a courtroom? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-26/CAROUSELS/2-explained-senegal-afcon"
+}

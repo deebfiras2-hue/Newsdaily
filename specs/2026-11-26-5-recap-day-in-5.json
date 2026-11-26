@@ -1,0 +1,59 @@
+{
+ "date": "NOV 26, 2026",
+ "category": "RECAP",
+ "tag": "NOV 25-26",
+ "source": "CBS, Reuters, BBC, Guardian, Al Jazeera, NYT, DW",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-26/src/c5.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "5 things you probably missed on Nov. 25",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Weather, rescues and a farewell.** Swipe for the quick version.",
+   "credit": "Rhododendrites / CC BY-SA 4.0 (Macy’s balloon inflation, file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | PARADE · NOV 25",
+   "body": "**Macy’s** postponed its Thanksgiving Day Parade to **Saturday** because of a nor’easter. Reuters and CBS say it is the [[first weather postponement]] in its history."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | EGYPT · NOV 25",
+   "body": "At least [[31 people]] died when a **fuel tanker crashed** and set off a huge fire on Cairo’s Ring Road, Egypt’s health ministry said. 21 were injured."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | COLOMBIA · NOV 25",
+   "body": "Security forces **stormed a supermarket in Cartagena** and freed the hostages after a siege of about 17 hours, Colombia’s president said. [[All hostages]] were rescued."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | CALIFORNIA · NOV 25",
+   "body": "**King tides** and big waves flooded roads and businesses along California’s coast, the Guardian and Al Jazeera report. The tides were [[record-breaking]] in places."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | MUSIC · NOV 25",
+   "body": "**Andy Taylor**, the Duran Duran guitarist, has died at [[65]], the NYT, Guardian and DW report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these stories surprised you most? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-26/CAROUSELS/5-recap-day-in-5"
+}
