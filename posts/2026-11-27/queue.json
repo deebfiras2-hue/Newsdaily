@@ -1,0 +1,205 @@
+{
+ "date": "2026-11-27",
+ "items": [
+  {
+   "id": "c1",
+   "type": "carousel",
+   "slot": "wow",
+   "time_utc": "2026-11-27T07:00:00Z",
+   "files": [
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/1.jpg",
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/2.jpg",
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/3.jpg",
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/4.jpg",
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/5.jpg",
+    "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares/6.jpg"
+   ],
+   "caption": "Musk just promised every US child 2 SpaceX shares 🚀\n\nThe giveaway is worth about $18 billion, per Reuters.\nSpaceX adds one new share to each active Trump Account, and Musk says he will match it.\nIt came hours after SpaceX won approval for 1 million satellites for space data centres.\nBloomberg says he also promised another share every year.\n\nGenerous gift or smart PR? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: Reuters via Al Jazeera (26 Nov 2026), Bloomberg (26 Nov 2026), Globe and Mail\nPhotos: Steve Jurvetson / CC BY 2.0 (Starship, file photo)\n\n#zoomedout #news #worldnews #spacex #elonmusk #space #business #tech #trumpaccounts #starship #markets",
+   "story_date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Al Jazeera (Reuters)",
+     "url": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/musk-says-every-us-kid-to-get-two-spacex-shares-doubling-pledge",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "The Globe and Mail (Reuters)",
+     "url": "https://www.theglobeandmail.com/investing/article-musk-pledges-two-spacex-shares-for-every-us-child-in-18-billion-ai/",
+     "published": "2026-11-26"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c2",
+   "type": "carousel",
+   "slot": "explained",
+   "time_utc": "2026-11-27T10:00:00Z",
+   "files": [
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/1.jpg",
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/2.jpg",
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/3.jpg",
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/4.jpg",
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/5.jpg",
+    "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament/6.jpg"
+   ],
+   "caption": "New Zealand voted. Nobody won. 🇳🇿\n\nFinal results confirm neither bloc has a majority.\nA newcomer party cleared the 5% threshold and is now the decider.\nThat is the centrist Opportunity Party, per AP.\nNext: weeks of coalition talks, and maybe a fresh vote.\n\nShould a small party hold this much power? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: AP, DW, BBC, The Guardian, Bloomberg (27 Nov 2026)\n\n#zoomedout #news #worldnews #newzealand #election #politics #explained #hungparliament #coalition #opportunityparty #democracy",
+   "story_date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "AP News",
+     "url": "https://apnews.com",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news",
+     "published": "2026-11-27"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c3",
+   "type": "carousel",
+   "slot": "good-news",
+   "time_utc": "2026-11-27T13:00:00Z",
+   "files": [
+    "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three/1.jpg",
+    "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three/2.jpg",
+    "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three/3.jpg",
+    "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three/4.jpg",
+    "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three/5.jpg"
+   ],
+   "caption": "Three good news stories to end your week 🙌\n\nNov 26: Strangers raised $350,000 so a Texas high school band could stay for the delayed Macy's parade.\nNov 26: China approved Hibsago, called a first-in-class functional cure for chronic hepatitis B by GSK.\nNov 23: A New Hampshire mom hit one year with a gene-edited pig kidney, a record.\n\nWhich one made you smile most? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: CBS News, MySA, GSK, China Daily, WMUR, People\n\n#zoomedout #news #worldnews #goodnews #goodnewsfriday #positivenews #hepatitisb #health #transplant #community #hope",
+   "story_date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "url": "https://www.cbsnews.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "MySA",
+     "url": "https://www.mysa.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "GSK",
+     "url": "https://www.gsk.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "WMUR",
+     "url": "https://www.wmur.com",
+     "published": "2026-11-23"
+    },
+    {
+     "outlet": "People",
+     "url": "https://people.com",
+     "published": "2026-11-24"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c4",
+   "type": "carousel",
+   "slot": "numbers",
+   "time_utc": "2026-11-27T16:00:00Z",
+   "files": [
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/1.jpg",
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/2.jpg",
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/3.jpg",
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/4.jpg",
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/5.jpg",
+    "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths/6.jpg"
+   ],
+   "caption": "4.8 million children died before age 5 in 2023. 🌍\n\nThat is the latest UN estimate.\nAbout 2.3 million were newborns.\nBut the global under-five death rate has fallen 52% since 2000.\nProgress is now slowing, the UN warns.\n\nWhat would you fund first to save more children? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, UN DESA, World Bank), 'Levels and Trends in Child Mortality', March 2025, data year 2023\n\n#zoomedout #news #worldnews #worldinnumbers #childhealth #unicef #who #globalhealth #data #development #statistics #humanrights",
+   "story_date": "evergreen",
+   "sources": [
+    {
+     "outlet": "UNICEF / UN IGME",
+     "url": "https://data.unicef.org/resources/levels-and-trends-in-child-mortality-2024/",
+     "published": "2025-03-24"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c5",
+   "type": "carousel",
+   "slot": "recap",
+   "time_utc": "2026-11-27T19:00:00Z",
+   "files": [
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/1.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/2.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/3.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/4.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/5.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/6.jpg",
+    "posts/2026-11-27/CAROUSELS/5-recap-day-in-5/7.jpg"
+   ],
+   "caption": "5 things you probably missed this week 🌍\n\nSpain's Pablo Hernández de Cos will lead the ECB.\nFIFA confirmed a cyberattack on its data.\nAFP was hit by a cyberattack too.\nA Thanksgiving storm cut power to nearly a million in the US.\nMexico wants talks over suspected SpaceX debris.\n\nWhich of these surprised you most? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: NYT, FT, CNN, DW, BBC, Al Jazeera, Anadolu, Arab News, Yahoo Finance (26-27 Nov 2026)\n\n#zoomedout #news #worldnews #recap #dailynews #ecb #fifa #cyberattack #afp #thanksgiving #spacex #mexico",
+   "story_date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news",
+     "published": "2026-11-26"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "Anadolu",
+     "url": "https://www.aa.com.tr",
+     "published": "2026-11-27"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  }
+ ]
+}

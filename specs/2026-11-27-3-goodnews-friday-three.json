@@ -1,0 +1,46 @@
+{
+ "category": "GOOD NEWS FRIDAY",
+ "tag": "3 STORIES",
+ "source": "CBS News, GSK, China Daily, WMUR, People",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "3 good news stories to end your week",
+   "highlight": [
+    "3 good news"
+   ],
+   "subline": "**A band saved, a hepatitis B first, a kidney record.** Swipe."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "NOV 26 | A BAND IS SAVED",
+   "body": "The parade was delayed, so a **Texas high school band** needed more hotel nights in New York. Strangers raised [[$350,000]] in time for about **500 students** to stay."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "NOV 26 | HEPATITIS B",
+   "body": "China approved **Hibsago**, which GSK calls a first-in-class [[functional cure]] for chronic hepatitis B. Current treatments rarely achieve one, GSK says."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "NOV 23 | A NEW RECORD",
+   "body": "A **New Hampshire mother** reached [[one year]] with a gene-edited **pig kidney**, the longest known run for any patient, reports say."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these made you smile most? Tell us below."
+  }
+ ],
+ "date": "NOV 27, 2026",
+ "out": "posts/2026-11-27/CAROUSELS/3-goodnews-friday-three"
+}

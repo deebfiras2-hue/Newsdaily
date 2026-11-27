@@ -1,0 +1,53 @@
+{
+ "category": "WAIT, WHAT?!",
+ "tag": "NOV 26",
+ "source": "Reuters, Bloomberg, Al Jazeera",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-27/src/starship.jpg",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "headline": "Musk will give every US kid 2 SpaceX shares",
+   "highlight": [
+    "2 SpaceX shares"
+   ],
+   "subline": "**About $18 billion.** Announced hours after a huge space approval.",
+   "credit": "Steve Jurvetson / CC BY 2.0 (Starship, file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PLEDGE",
+   "body": "Elon Musk said on **Wednesday evening** that every child in the US will get [[two SpaceX shares]]. Reuters values the giveaway at about **$18 billion**."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHO PAYS WHAT",
+   "body": "SpaceX says it will add **one new share** to each active Trump Account. Musk says he will [[match it personally]] once his lockup ends, in June next year."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TIMING",
+   "body": "It came **hours after** SpaceX won US approval to deploy [[1 million satellites]] for data centres in space, as scrutiny of tech firms grows."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE CATCH",
+   "body": "Analysts call it a **charm offensive** for SpaceX and AI. Bloomberg reports Musk also promised [[another share every year]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Generous gift or smart PR? Tell us what you think below."
+  }
+ ],
+ "date": "NOV 27, 2026",
+ "out": "posts/2026-11-27/CAROUSELS/1-musk-spacex-shares"
+}

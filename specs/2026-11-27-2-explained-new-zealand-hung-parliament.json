@@ -1,0 +1,52 @@
+{
+ "category": "EXPLAINED",
+ "tag": "NOV 27",
+ "source": "AP, DW, BBC, Guardian, Bloomberg",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "New Zealand voted. Nobody won.",
+   "highlight": [
+    "Nobody won"
+   ],
+   "subline": "**Final results are in.** Here is what a hung parliament means."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT HAPPENED",
+   "body": "Final New Zealand election results, confirmed on **Nov 27**, show neither the governing right bloc nor the left bloc has a [[majority]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT'S TIGHT",
+   "body": "New Zealand votes for **parties**, not just local winners. A party needs **5% of the vote** to enter parliament. A newcomer cleared it and is now the [[decider]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE KINGMAKER",
+   "body": "AP says the centrist **Opportunity Party** now holds the balance. Whichever bloc it backs can form the [[next government]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT'S NEXT",
+   "body": "Weeks of **coalition talks**. If no bloc can build a majority, New Zealand could even face [[a fresh election]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Should a small party hold this much power? Tell us below."
+  }
+ ],
+ "date": "NOV 27, 2026",
+ "out": "posts/2026-11-27/CAROUSELS/2-explained-new-zealand-hung-parliament"
+}

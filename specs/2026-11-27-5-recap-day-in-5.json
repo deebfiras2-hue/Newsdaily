@@ -1,0 +1,58 @@
+{
+ "category": "RECAP",
+ "tag": "NOV 26-27",
+ "source": "NYT, FT, CNN, Bloomberg, DW, Guardian, BBC, Al Jazeera, Anadolu, Arab News",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "5 things you probably missed this week",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Central banks, hackers and a storm.** The quick version."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | EUROPE · NOV 26",
+   "body": "Spain's **Pablo Hernández de Cos** was picked to succeed Christine Lagarde as [[European Central Bank]] president, the NYT and FT report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | FOOTBALL · NOV 26",
+   "body": "**FIFA** confirmed a cyberattack that accessed [[personal and business information]], DW and BBC report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | MEDIA · NOV 26-27",
+   "body": "France's **AFP** news agency was hit by a [[cyberattack]] and took its content platform offline, Al Jazeera and Anadolu report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | USA · NOV 27",
+   "body": "A **Thanksgiving storm** left nearly [[a million]] people without power across the US, with flooding and flight delays."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | MEXICO · NOV 26",
+   "body": "Mexico wants talks with the US about suspected **SpaceX rocket debris** washing up on its coast, Al Jazeera and Yahoo Finance report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these surprised you most? Tell us below."
+  }
+ ],
+ "date": "NOV 27, 2026",
+ "out": "posts/2026-11-27/CAROUSELS/5-recap-day-in-5"
+}

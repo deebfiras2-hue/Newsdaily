@@ -1,0 +1,52 @@
+{
+ "category": "THE WORLD IN NUMBERS",
+ "tag": "2023 DATA",
+ "source": "UN IGME (UNICEF, WHO, UN, World Bank), report March 2025",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "4.8 million children died before age 5",
+   "highlight": [
+    "4.8 million"
+   ],
+   "subline": "**That was 2023,** the latest UN estimate. The trend is more hopeful."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NUMBER",
+   "body": "In **2023**, an estimated [[4.8 million]] children died before their fifth birthday, the UN Inter-agency Group (UN IGME) says."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NEWBORNS",
+   "body": "About **2.3 million** of them were newborns. Nearly half of all under-five deaths happen in the [[first 28 days]] of life."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PROGRESS",
+   "body": "Since **2000**, the global under-five death rate has fallen by [[52%]]. Millions more children now survive."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE WARNING",
+   "body": "Progress is **slowing**: since 2015 the yearly rate of decline is [[42% slower]] than in 2000-2015, the UN warns."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "What would you fund first to save more children? Tell us below."
+  }
+ ],
+ "date": "NOV 27, 2026",
+ "out": "posts/2026-11-27/CAROUSELS/4-numbers-child-deaths"
+}
