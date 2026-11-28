@@ -1,0 +1,52 @@
+{
+ "category": "GOOD NEWS",
+ "tag": "2023 DATA",
+ "source": "Carter Center, WHO",
+ "date": "NOV 28, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "A disease that hit 3.5 million now has 14 cases",
+   "highlight": [
+    "14 cases"
+   ],
+   "subline": "**Guinea worm** is close to becoming the second human disease ever wiped out."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THEN",
+   "body": "In **1986**, guinea worm disease infected an estimated [[3.5 million people]] a year across 21 countries in Africa and Asia, the Carter Center says."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "NOW",
+   "body": "In **2023**, just [[14 human cases]] were reported worldwide. That is a drop of more than 99.999%."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE TRICK",
+   "body": "There is **no vaccine and no cure**. People caught it from drinking dirty water. Filters, clean water and [[village health workers]] did the job."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT'S NEXT",
+   "body": "Only **smallpox** has been eradicated in humans so far. Guinea worm would be [[the second]]. A few cases still keep appearing in a handful of countries."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "What simple fix do you wish the world would roll out next? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm"
+}

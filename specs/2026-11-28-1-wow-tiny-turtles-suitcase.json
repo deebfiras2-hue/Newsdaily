@@ -1,0 +1,47 @@
+{
+ "category": "WAIT, WHAT?!",
+ "tag": "NOV 27",
+ "source": "BBC, DW",
+ "date": "NOV 28, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "posts/2026-11-28/src/turtle.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "headline": "26 rare turtles found taped up in luggage",
+   "highlight": [
+    "26 rare turtles"
+   ],
+   "subline": "**Critically endangered.** Customs found them at Amsterdam's airport.",
+   "credit": "Agencia Informativa Conacyt / UdeG / CC BY 4.0 (Vallarta mud turtle, file photo)"
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE FIND",
+   "body": "Dutch customs at **Amsterdam's Schiphol airport** found [[26 Vallarta mud turtles]] in the checked baggage of a man flying from Mexico to Hong Kong."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE PACKING",
+   "body": "Most were in a box with **a toy car**. Others were in [[a closed sock]] inside a suitcase. All were wrapped in duct tape so they could not move."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "HOW RARE",
+   "body": "Thought to be the **smallest freshwater turtles** on Earth, about [[10 cm (4 in)]] long. Fewer than **300** may exist in the wild, so the 26 may be [[nearly 10%]]."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE ENDING",
+   "body": "**All 26 survived.** The tape was removed at a specialist sanctuary. The man remains in custody while [[the investigation]] continues. Should smuggling wildlife carry tougher penalties? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase"
+}

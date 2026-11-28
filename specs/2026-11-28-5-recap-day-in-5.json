@@ -1,0 +1,58 @@
+{
+ "category": "RECAP",
+ "tag": "NOV 27-28",
+ "source": "DW, Al Jazeera, Guardian, Reuters, CNBC, BBC, AP",
+ "date": "NOV 28, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "5 things you missed since Friday",
+   "highlight": [
+    "5 things"
+   ],
+   "subline": "**Taiwan, Quebec, OpenAI, a storm and an airline.** The quick version."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "1 | TAIWAN · NOV 28",
+   "body": "Taiwan **voted** for mayors and county chiefs in [[22 cities and counties]], a test of the mood before the 2028 presidential vote, DW and Al Jazeera report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "2 | CANADA · NOV 27",
+   "body": "Canada's Supreme Court **largely upheld** Quebec's [[Bill 21]], which bars public sector workers from wearing religious symbols, in a 6-1 ruling, the Guardian and DW report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "3 | TECH · NOV 27",
+   "body": "**OpenAI sued Apple**, accusing it of [[stealing trade secrets]] and discouraging hardware suppliers, the Guardian and CNBC report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "4 | USA · NOV 27",
+   "body": "Thanksgiving storms left nearly [[a million]] customers without power at the peak, with water rescues from New York to Virginia, the Guardian and BBC report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "5 | AVIATION · NOV 27",
+   "body": "Norway's **Norse Atlantic** filed for bankruptcy after [[jet fuel costs]] surged during the Iran war, DW and Reuters report."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Which of these surprised you most? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-28/CAROUSELS/5-recap-day-in-5"
+}

@@ -1,0 +1,46 @@
+{
+ "category": "THE WORLD IN NUMBERS",
+ "tag": "2024 DATA",
+ "source": "UN World Population Prospects 2024",
+ "date": "NOV 28, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "73.3 years: how long the world now lives",
+   "highlight": [
+    "73.3 years"
+   ],
+   "subline": "**+8.4 years since 1995.** The UN's 2024 estimate."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE NUMBER",
+   "body": "The UN estimates global **life expectancy at birth** reached [[73.3 years]] in 2024."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE GAIN",
+   "body": "That is **8.4 years more** than in 1995. The world gained [[almost a decade]] of life in a single generation, even after the COVID-19 dip."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE FORECAST",
+   "body": "The UN projects it will reach [[77.4 years]] by **2054**. That would be another 4.1 years."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "If you got 4 more years, what would you do with them? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy"
+}

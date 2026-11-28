@@ -1,0 +1,52 @@
+{
+ "category": "EXPLAINED",
+ "tag": "SUNDAY",
+ "source": "DW, Reuters, AFP",
+ "date": "NOV 28, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": null,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "headline": "Spain votes Sunday. A far-right party may decide it",
+   "highlight": [
+    "far-right party"
+   ],
+   "subline": "**Here is what is at stake** in the general election."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHAT'S HAPPENING",
+   "body": "Spaniards vote in a **general election on Sunday**. PM Pedro Sánchez made his last pitch on Friday: [[\"vote, vote, vote\"]] so Spain doesn't go \"backwards\"."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE POLLS",
+   "body": "Opinion polls point to **a change of government**. The conservative People's Party is slated to finish first, ending Sánchez's [[eight years]] in power."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "THE KINGMAKER",
+   "body": "The PP may need the **far-right Vox party** to govern. Reuters says Vox leader Abascal [[nears power]] as kingmaker. A hung parliament is also possible."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "WHY IT MATTERS",
+   "body": "Voters are angry about **the cost of living** and rents so high many [[can't leave home]]. It also **kicks off a round of elections** across Europe."
+  },
+  {
+   "type": "inner",
+   "photo": null,
+   "kicker": "YOUR TURN",
+   "body": "Is the housing crisis the issue that should decide elections? Tell us below."
+  }
+ ],
+ "out": "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday"
+}

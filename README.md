@@ -11,3 +11,4 @@
 - Today: [posts/2026-11-25](posts/2026-11-25/captions.md)
 - Today: [posts/2026-11-26](posts/2026-11-26/captions.md)
 - Today: [posts/2026-11-27](posts/2026-11-27/captions.md)
+- Today: [posts/2026-11-28](posts/2026-11-28/captions.md)

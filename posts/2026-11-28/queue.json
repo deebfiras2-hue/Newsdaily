@@ -1,0 +1,164 @@
+{
+ "date": "2026-11-28",
+ "items": [
+  {
+   "id": "c1",
+   "type": "carousel",
+   "slot": "wow",
+   "time_utc": "2026-11-28T07:00:00Z",
+   "files": [
+    "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase/1.jpg",
+    "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase/2.jpg",
+    "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase/3.jpg",
+    "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase/4.jpg",
+    "posts/2026-11-28/CAROUSELS/1-wow-tiny-turtles-suitcase/5.jpg"
+   ],
+   "caption": "26 of the world's tiniest turtles, taped up in luggage 🐢\n\nDutch customs found them at Amsterdam's Schiphol airport.\nThey were bound for Hong Kong from Mexico.\nOnly about 300 Vallarta mud turtles may exist in the wild.\nThe 26 could be nearly 10% of them. All survived.\n\nShould wildlife smuggling carry much tougher penalties? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: BBC (27 Nov 2026), DW (27 Nov 2026)\nPhotos: Agencia Informativa Conacyt / UdeG / CC BY 4.0 (Vallarta mud turtle, file photo)\n\n#zoomedout #news #worldnews #turtles #wildlife #endangeredspecies #conservation #schiphol #netherlands #mexico #nature",
+   "story_date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm5y1380q3vgo",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824",
+     "published": "2026-11-27"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c2",
+   "type": "carousel",
+   "slot": "explained",
+   "time_utc": "2026-11-28T10:00:00Z",
+   "files": [
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/1.jpg",
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/2.jpg",
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/3.jpg",
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/4.jpg",
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/5.jpg",
+    "posts/2026-11-28/CAROUSELS/2-explained-spain-votes-sunday/6.jpg"
+   ],
+   "caption": "Spain votes Sunday. A far-right party may decide it. 🇪🇸\n\nPolls point to a change of government.\nThe conservative PP may need far-right Vox to govern.\nA hung parliament is also possible.\nHousing and the cost of living are the big issues.\n\nIs the housing crisis the issue that should decide elections? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: DW (28 Nov 2026), Reuters (27 Nov 2026), The Guardian (27 Nov 2026)\n\n#zoomedout #news #worldnews #spain #election #politics #explained #sanchez #europe #housingcrisis #vox",
+   "story_date": "2026-11-28",
+   "sources": [
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com/en/spain-s-sanchez-makes-final-appeal-to-voters-before-election/a-80082783",
+     "published": "2026-11-28"
+    },
+    {
+     "outlet": "Reuters",
+     "url": "https://news.google.com/rss/headlines/section/topic/WORLD (Spain's far-right Vox leader Abascal nears power as election kingmaker)",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
+     "published": "2026-11-27"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c3",
+   "type": "carousel",
+   "slot": "good-news",
+   "time_utc": "2026-11-28T13:00:00Z",
+   "files": [
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/1.jpg",
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/2.jpg",
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/3.jpg",
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/4.jpg",
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/5.jpg",
+    "posts/2026-11-28/CAROUSELS/3-goodnews-guinea-worm/6.jpg"
+   ],
+   "caption": "A disease that hit 3.5 million people now has 14 cases. 🎉\n\nGuinea worm infected millions a year in 1986.\nIn 2023, just 14 human cases were reported.\nNo vaccine. No cure. Just clean water, filters and health workers.\nIt could be the second human disease ever eradicated.\n\nWhat simple fix do you wish the world would roll out next? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: The Carter Center, WHO (2023 data)\n\n#zoomedout #news #worldnews #goodnews #guineaworm #globalhealth #cartercenter #publichealth #eradication #didyouknow",
+   "story_date": "evergreen",
+   "sources": [
+    {
+     "outlet": "The Carter Center",
+     "url": "https://www.cartercenter.org/health/guinea_worm/index.html",
+     "published": "evergreen"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c4",
+   "type": "carousel",
+   "slot": "numbers",
+   "time_utc": "2026-11-28T16:00:00Z",
+   "files": [
+    "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy/1.jpg",
+    "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy/2.jpg",
+    "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy/3.jpg",
+    "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy/4.jpg",
+    "posts/2026-11-28/CAROUSELS/4-numbers-life-expectancy/5.jpg"
+   ],
+   "caption": "The world gained almost a decade of life in one generation. 📈\n\nGlobal life expectancy: 73.3 years in 2024.\nThat is 8.4 years more than in 1995.\nThe UN projects 77.4 years by 2054.\n\nIf you got 4 more years, what would you do with them? 👇\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: UN World Population Prospects 2024 (2024 data)\n\n#zoomedout #news #worldnews #lifeexpectancy #un #data #population #health #innumbers #worldinnumbers",
+   "story_date": "evergreen",
+   "sources": [
+    {
+     "outlet": "UN DESA",
+     "url": "https://population.un.org/wpp/",
+     "published": "2024"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  },
+  {
+   "id": "c5",
+   "type": "carousel",
+   "slot": "recap",
+   "time_utc": "2026-11-28T19:00:00Z",
+   "files": [
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/1.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/2.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/3.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/4.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/5.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/6.jpg",
+    "posts/2026-11-28/CAROUSELS/5-recap-day-in-5/7.jpg"
+   ],
+   "caption": "5 things you missed since Friday. ⚡\n\nTaiwan voted in local elections.\nCanada's top court largely upheld Quebec's Bill 21.\nOpenAI sued Apple over trade secrets.\nThanksgiving storms left nearly a million without power at the peak.\nNorse Atlantic filed for bankruptcy.\n\nWhich of these surprised you most? 👇\nSend this to someone who needs to see it.\nFollow @zoomed.out.365 for the big picture, every day 🌍\nSource: DW, Al Jazeera, The Guardian, Reuters, CNBC, BBC, AP (27-28 Nov 2026)\n\n#zoomedout #news #worldnews #recap #taiwan #quebec #openai #apple #thanksgiving #norseatlantic",
+   "story_date": "2026-11-28",
+   "sources": [
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com/en/polls-open-in-taiwan-s-closely-watched-local-elections/a-80083086",
+     "published": "2026-11-28"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+     "published": "2026-11-27"
+    },
+    {
+     "outlet": "DW",
+     "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728",
+     "published": "2026-11-27"
+    }
+   ],
+   "verified": true,
+   "status": "ready"
+  }
+ ]
+}
